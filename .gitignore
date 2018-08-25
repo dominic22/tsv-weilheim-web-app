@@ -1,0 +1,5 @@
+
+*.gz
+*/usage/*
+usage/*
+config.inc.php

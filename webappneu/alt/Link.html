@@ -1,0 +1,92 @@
+
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN"
+"http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Metro Tiles UI Kit webtemplate for high end mobiles, like
+	samsung, nokia, lg, sony erricsson, htc mobile website templates for
+	free | Home :: w3layouts</title>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+ 
+ 
+ <link rel="stylesheet" href="css/idangerous.swiper.css">
+	<link rel="stylesheet" href="css/idangerous.swiper.scrollbar.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/simple-app.css">
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>
+	//triggered when modal is about to be shown
+	$(document).ready(function() {
+
+	  $('a[data-toggle=modal], button[data-toggle=modal]').click(function () {
+
+		var data_id = '';
+
+		if (typeof $(this).data('id') !== 'undefined') {
+
+		  data_id = $(this).data('id');
+		}
+
+		$('#btn').val(data_id);
+		console.log($('#btn').val(data_id));
+	  })
+	});
+	</script>
+ 
+	<script>
+	function getValue()
+	  {
+	  var x=document.getElementById("btn").value;
+	 
+	
+	  alert(x);
+	  
+	  }
+</script>
+
+
+	
+</head>
+<body style="background-color: red;  overflow-y: scroll; overflow-x: hidden; ">
+<div style="margin-top:-1px;">
+
+
+	<p>Link 1</p>
+	<a href="#" id="btn" type="text" onclick="getValue()" name="asd" value="123"  data-target="#my_modal" data-toggle="modal" data-id="my_id_value">Open Modal</a>
+	<p>&nbsp;</p>
+
+
+	<p>Link 2</p>
+	<a href="#" data-target="#my_modal" data-toggle="modal" data-id="my_id_value">Open Modal</a>
+	<div class="modal hide" id="addBookDialog">
+	 <div class="modal-header">
+		<button class="close" data-dismiss="modal">×</button>
+		<h3>Modal header</h3>
+	  </div>
+		<div class="modal-body">
+			<p>some content</p>
+			<input type="text" name="bookId" id="bookId" value=""/>
+		</div>
+	</div>
+										
+										
+									
+									
+</div>
+	<script src="js/jquery.min.js"></script>
+	<!-- Don't forget to get the latest Swiper and scrollbar version here-->
+	<script src="js/idangerous.swiper-2.0.min.js"></script>
+	<script src="js/idangerous.swiper.scrollbar-2.0.js"></script>
+	<script src="js/simple-app.js"></script>
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/bootstrap.min.js"></script>
+	
+</body>
+</html>
+
+
