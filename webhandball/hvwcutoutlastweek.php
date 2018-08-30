@@ -22,23 +22,6 @@
 
  header('Content-Type: text/xml');
  //header('Content-Type: text/plain');
- 
- 
- // Wichtig:
- // das frontend muss dieses skript ebenfalls mit #/league?ogId=3&lId=28374 aufrufen ansonsten redirected hvw dieses weiter an #/schedule!!
- // deshalb müssen wir den client immer umleiten oder im client die url ändern, da ich die app deshalb nicht updaten möchte mache ich einen redirect..
- /*
- Ist zum glück doch nicht nötig
- $status = $_REQUEST['status'];
- 
- // at the 2nd position of the array the exploded value is defined.. if it is null redirect, otherwise we have a valid id :)
- // $exploded_url = explode( "#/league?ogId=3&lId=", $requestUrl);
- if($status != "ok") {
-	header("Location: http://android.handball-weilheim.de/webhandball/hvwcutout_dev.php?site=$teamName&type=table&status=ok#/league?ogId=3&lId=$teamID");
-   exit;
- }*/
- 
-	//require('simple_html_dom.php');
 
 	$json = file_get_contents($site); 
 	$obj = json_decode($json);
@@ -56,6 +39,7 @@
 		$node->addChild('VereinGast', $game->gGuestTeam);
 		$node->addChild('ToreHeim', $game->gHomeGoals);
 		$node->addChild('ToreGast', $game->gGuestGoals);
+		$node->addChild('BerichtUrl', "http://spo.handball4all.de/misc/sboPublicReports.php?sGID=$game->sGID");
 	}
 	
    echo $xml->asXML();

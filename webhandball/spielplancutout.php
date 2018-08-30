@@ -1,83 +1,46 @@
-<?php if($_REQUEST['site']) { $site = $_REQUEST['site']; }; if($_REQUEST['type']) 
+<?php if($_REQUEST['site']) { $teamName = $_REQUEST['site']; }; if($_REQUEST['type']) 
  { $type = $_REQUEST['type']; }; 
+
  $timestamp=time(); 
  
-  $saison="2017-2018";
- if($site == "erste") {$site = "http://www.handball-weilheim.de/".$saison."/herren-1/spielplan.html";};
- if($site == "zweite") {$site = "http://www.handball-weilheim.de/".$saison."/herren-2/spielplan.html";};
- if($site == "damen") {$site = "http://www.handball-weilheim.de/".$saison."/damen-1/spielplan.html";};
- if($site == "damen2") {$site = "http://www.handball-weilheim.de/".$saison."/damen-2/spielplan.html";};
- if($site == "js") {$site = "http://handball-weilheim.de/".$saison."/jungesenioren/spielplan.html";};
+  //Dieses Skript regelt die Tabelle
+  //$site = "http://www.hvw-online.org/spielbetrieb/ergebnissetabellen-verband/#/league?ogId=3&lId=";
+  
+ // counter kann man erzeugen, indem man bei listenansicht auf verein klickt und somit nur die jeweiligen spiele angezeigt bekommt
 
+ if($teamName == "erste") { $teamID = "28374"; $counter="391150"; };
+ if($teamName == "zweite") { $teamID = "28386"; $counter="391302"; };
+ if($teamName == "damen") { $teamID = "28402"; $counter="391150"; };
+ if($teamName == "damen2") { $teamID = "28406"; $counter="391150"; };
+ if($teamName == "js") { $teamID = "31754"; $counter="391150"; };
+ if($teamName == "ad") { $teamID = "31750"; $counter="391150"; };
  if($type == "table") { 
+ }
+ //https://spo.handball4all.de/service/if_g_json.php?ca=0&cl=28374&cmd=ps&ct=391150&og=3&p=58
+ $site = "https://spo.handball4all.de/service/if_g_json.php?ca=0&cl=$teamID&cmd=ps&ct=$counter&og=3&p=58";
 
- $return = file_get_contents($site); 
+ header('Content-Type: text/xml');
+ // header('Content-Type: text/plain');
 
- 
-  $return = str_replace("<tr style=\"background-color: #eecccc;\">", "<tr class=\"ungerade\">", $return);
-  $return = str_replace("<tr>", "<tr class=\"ungerade\">", $return);
- 
- 
-
- $html = $return;
-
-}; 
+	$json = file_get_contents($site); 
+	$obj = json_decode($json);
 	
-	//echo $html;
+	$futureGames = $obj[0]->content->futureGames->games;
 	
-	
-	
-	
-	
-	//Ab WO?:
-	$body = explode('<tbody>', $html);
-
-	
-    $xml = simplexml_load_string("<?xml version='1.0' encoding='utf-8'?><xml />");
-
-    $rows = array();
-	
-    foreach (array_slice(explode('<tr class="ungerade">', end($body)), 1) as $row)
-    {
-		//Wenn bei Platz [^<] kann hier alles andere stehen..
-	//	preg_match_all('/b>([^<]+)<\/b>/', $row, $platz,PREG_PATTERN_ORDER);
-		
-		//2014/2015 	preg_match_all('/mceVisualAid">([^<]+)<\/td>/', $row, $ver, PREG_PATTERN_ORDER);
-		
-		
-	/*	preg_match_all('/<td.*?>([^<]+)<\/td>/', $row, $ver, PREG_PATTERN_ORDER);
-		*/
-		
-		preg_match_all('/<td.*?>([^<]+)<\/td>/', $row, $ver, PREG_PATTERN_ORDER);	
-		
-		
+	 //Noch das vordere wegschneiden..
+	$xml = simplexml_load_string("<?xml version='1.0' encoding='utf-8'?><xml />");
+	$x = 1;
+	foreach ($futureGames as $game) {
 		$node = $xml->addChild('SpielplanChild');
 		
-		//$node->addChild('Halle', $ver[1][0]);
-		$node->addChild('Datum', $ver[1][1]);
-		$node->addChild('Uhrzeit', $ver[1][2]);
+		$node->addChild('Datum', $game->gDate);
+		$node->addChild('Uhrzeit', $game->gTime);
+		$node->addChild('Heim', $game->gHomeTeam);
+		$node->addChild('Gast', $game->gGuestTeam);
+		$node->addChild('BerichtUrl', "http://spo.handball4all.de/misc/sboPublicReports.php?sGID=$game->sGID");
 		
-		$node->addChild('Heim', $ver[1][3]);
-		
-		//<td class="xl68" width="171">- <span class="font5">TSV Weilheim</span></td>
-		//preg_match_all('/<td class="xl68" width="171">\- <span class="font5">([^<]+)<\/span><\/td>/', $row, $ver2, PREG_PATTERN_ORDER);
-		preg_match_all('/<td.*?>(.*?)<\/td>/si', $row, $ver);
-		
-		preg_match_all('/<span.*?>(.*?)<\/span>/si', $ver[1][4], $ver3);
-		
-		
-		
-		if($ver3[1][0]!=""){
-			$node->addChild('Gast', $ver3[1][0]);
-		}else{
-			$node->addChild('Gast', $ver[1][4]);
-		}
-	 
-    }
-	
-	
-
-    header('Content-Type: text/xml');
-    echo $xml->asXML();
- 
+		$x++;
+	}
+	// echo json_encode($futureGames)
+   	echo $xml->asXML();
  ?>
