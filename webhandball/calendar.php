@@ -19,11 +19,11 @@ END:VCALENDAR";*/
 $year = "_17_18";
 
 if($_REQUEST['site']) { $site = $_REQUEST['site']; };
-if($site=="herren1"){ 
+if($site=="erste"){ 
 	$fileName="spielplan_herren1".$year.".ics";
-}else if($site=="herren2"){ 
+}else if($site=="zweite"){ 
 	$fileName="spielplan_herren2".$year.".ics";
-}else if($site=="damen1"){ 
+}else if($site=="damen"){ 
 	$fileName="spielplan_damen1".$year.".ics";
 }else if($site=="damen2"){ 
 	$fileName="spielplan_damen2".$year.".ics";
@@ -32,6 +32,29 @@ if($site=="herren1"){
 }else if($site=="ad"){ 
 	$fileName="spielplan_ad".$year.".ics";
 }
+//jugend
+if($teamName == "a_maennlich") { 
+	$fileName="spielplan_herren1".$year.".ics";
+};
+if($teamName == "b_maennlich") { 
+	$fileName="spielplan_herren1".$year.".ics";
+};
+if($teamName == "c_maennlich") {
+	$fileName="spielplan_herren1".$year.".ics";
+};
+if($teamName == "d_maennlich") { 
+	$fileName="spielplan_herren1".$year.".ics";
+};
+//if($teamName == "a_weiblich") { $teamID = "37441"; $counter="391150"; };
+if($teamName == "b_weiblich") { 
+	$fileName="spielplan_herren1".$year.".ics";
+};
+if($teamName == "c_weiblich") { 
+	$fileName="spielplan_herren1".$year.".ics";
+};
+if($teamName == "d_weiblich") { 
+	$fileName="spielplan_herren1".$year.".ics";
+};
 
 
 $ical2 = file_get_contents("downloadcontent/spielplan/". $fileName);
