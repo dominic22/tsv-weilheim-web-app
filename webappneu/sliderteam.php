@@ -322,7 +322,7 @@
 										<th >Verein Heim</th>
 										<th >Verein Gast</th>
 										<th class="text-center">Spielstand</th>
-										
+										<th >SPO</th>
 								</tr>';
 								$n = 0;
 								foreach($data as $node)
@@ -340,6 +340,9 @@
 										}else if($p->nodeName=="ToreGast"){
 											$toreGast = $p->nodeValue; 
 											echo '<td class="text-center">'. $toreHeim .':'.$toreGast  . '</td>';	   
+										}
+										else if($p->nodeName=="BerichtUrl"){
+											echo '<td><a href="'.$p->nodeValue.'"  target="_blank"><img src="img/News96.png" width="24" height="24"/></a></td>';	   
 										}
 										else if($p->nodeName!="Liga"){
 											echo '<td >'. $p->nodeValue . '</td>';	   
@@ -480,7 +483,7 @@
 										<th >Uhrzeit</th>
 										<th >Heim</th>
 										<th >Gast</th>	
-										
+										<th >SPO</th>
 								</tr>';
 
 
@@ -494,6 +497,9 @@
 									
 									if($p->nodeName=="Verein"){
 										echo '<td >'. $p->nodeValue . '</td>';	   
+									}
+									else if($p->nodeName=="BerichtUrl"){
+										echo '<td><a href="'.$p->nodeValue.'"  target="_blank"><img src="img/News96.png" width="24" height="24"/></a></td>';	   
 									}
 									else{
 										echo '<td>'. $p->nodeValue . '</td>';	 
