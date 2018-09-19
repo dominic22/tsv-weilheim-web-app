@@ -33,32 +33,31 @@ if($site=="erste"){
 	$fileName="spielplan_ad".$year.".ics";
 }
 //jugend
-if($teamName == "a_maennlich") { 
+if($site == "a_maennlich") { 
 	$fileName="spielplan_a_maennlich".$year.".ics";
-};
-if($teamName == "b_maennlich") { 
+}
+if($site == "b_maennlich") { 
 	$fileName="spielplan_b_maennlich".$year.".ics";
-};
-if($teamName == "c_maennlich") {
+}
+if($site == "c_maennlich") {
 	$fileName="spielplan_c_maennlich".$year.".ics";
-};
-if($teamName == "d_maennlich") { 
+}
+if($site == "d_maennlich") { 
 	$fileName="spielplan_d_maennlich".$year.".ics";
-};
-//if($teamName == "a_weiblich") { $teamID = "37441"; $counter="391150"; };
-if($teamName == "b_weiblich") { 
+}
+//if($teamName == "a_weiblich") { $teamID = "37441"; $counter="391150"; }
+if($site == "b_weiblich") { 
 	$fileName="spielplan_b_weiblich".$year.".ics";
-};
-if($teamName == "c_weiblich") { 
+}
+if($site == "c_weiblich") { 
 	$fileName="spielplan_c_weiblich".$year.".ics";
-};
-if($teamName == "d_weiblich") { 
+}
+if($site == "d_weiblich") { 
 	$fileName="spielplan_d_weiblich".$year.".ics";
-};
+}
 
 
 $ical2 = file_get_contents("downloadcontent/spielplan/". $fileName);
-
 
 //set correct content-type-header
 header('Content-type: text/calendar; charset=utf-8');
