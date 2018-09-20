@@ -46,13 +46,13 @@
 	{ $type = $_REQUEST['type']; }; 
 	if($site=="erste"){ 
 		$mannschaft="Herren 1";
-		$spielplanTeam = "herren1"; // _teamName + "_spielplan.ics"
+		$spielplanTeam = "erste"; // _teamName + "_spielplan.ics"
 	}else if($site=="zweite"){ 
 		$mannschaft="Herren 2";
-		$spielplanTeam = "herren2";
+		$spielplanTeam = "zweite";
 	}else if($site=="damen"){ 
 		$mannschaft="Damen 1";
-		$spielplanTeam = "damen1";
+		$spielplanTeam = "damen";
 	}else if($site=="damen2"){ 
 		$mannschaft="Damen 2";
 		$spielplanTeam = "damen2";
@@ -342,7 +342,11 @@
 											echo '<td class="text-center">'. $toreHeim .':'.$toreGast  . '</td>';	   
 										}
 										else if($p->nodeName=="BerichtUrl"){
-											echo '<td><a href="'.$p->nodeValue.'"  target="_blank"><img src="img/News96.png" width="24" height="24"/></a></td>';	   
+											if ($p->nodeValue !="http://spo.handball4all.de/misc/sboPublicReports.php?sGID=0") {
+												echo '<td><a href="'.$p->nodeValue.'"  target="_blank"><img src="img/News96.png" width="24" height="24"/></a></td>';	   
+											} else {
+												echo '<td></td>';
+											}
 										}
 										else if($p->nodeName!="Liga"){
 											echo '<td >'. $p->nodeValue . '</td>';	   
@@ -499,7 +503,11 @@
 										echo '<td >'. $p->nodeValue . '</td>';	   
 									}
 									else if($p->nodeName=="BerichtUrl"){
-										echo '<td><a href="'.$p->nodeValue.'"  target="_blank"><img src="img/News96.png" width="24" height="24"/></a></td>';	   
+										if ($p->nodeValue != "http://spo.handball4all.de/misc/sboPublicReports.php?sGID=0") {
+											echo '<td><a href="'.$p->nodeValue.'"  target="_blank"><img src="img/News96.png" width="24" height="24"/></a></td>';	   
+										} else {
+											echo '<td></td>';
+										}
 									}
 									else{
 										echo '<td>'. $p->nodeValue . '</td>';	 
