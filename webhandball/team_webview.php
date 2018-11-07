@@ -23,6 +23,13 @@
 							if($site=="erste"){
 								echo '<img src="img/teams/h1.jpg" class="img-responsive" id="MannschBild" />';	
 								$title='
+								<b>Hinten:</b> Maximilian Müller, Jan Stark, Leander Banzhaf, Calvin Hartmann, Florian Braun, Patrick Seyferle, Jakob Klein, Alexander Späth.
+								<br>
+								<b>Vorne:</b> Trainer Michael Rehkugler, Jakob Ulmer, Timo Sigel, Benedikt Schmid, Moritz Latzel, Timo Höfert, Dominik Klett, Co-Trainer Bernd Bierbaum.
+								<br>
+								<b>Es fehlen:</b> Benjamin Banzhaf, Josef Roth, Bernhard Illi.
+								<br>
+								<br>
 								<b>Saisonausblick 2018/19</b>
 								<br>
 								Hinter der ersten Herrenmannschaft des TSV Weilheim liegt eine enttäuschende Saison 2017/18. Am Ende bedeutet der 12. und somit vorletzte Platz den schweren Gang von der Bezirksliga in die Bezirksklasse. Für eine Bezirksligastaffel, in der sich die meisten Mannschaften personell verstärkt und konstant weiterentwickelt haben, war der Kader dieses Jahr zu schwach. Der Abstieg ist für einige die logische Folge eines Negativtrends, der sich bereits in der Spielzeit 2016/17 abzeichnete.
@@ -47,14 +54,29 @@
 							}else if($site=="zweite"){
 								echo '<img src="img/teams/h2.jpg" class="img-responsive" id="MannschBild" />';			
 								$title='
-								<b>Unter dem Motto:</b>
-								<br>Wer B sagt muss auch A sagen, geht es diese Saison für Weilheims zweite Herrenmannschaft in der Kreisliga A zur Sache.
+								<b>Hinten:</b> Co-Trainer Timo Klein, Leander Banzhaf, Timo Höfert, Jakob Ulmer, Christo Kiriakidis, Marco Zaiser, Felix Kupferschmid, Trainer Marco Schill.
+								<br>
+								<b>Vorne:</b> Dan Stelzer, Kai Huber, Andreas Klöhn, Mark Sigel, Benedikt Schmid, Dominic Zettl, Karl-Friedrich Schumacher, Marco Fiedler.
+								<br>
+								<br>
+								<b>Saisonausblick 2018/19</b>
+								<br>
+								Unter dem Motto: Wer B sagt muss auch A sagen, geht es diese Saison für Weilheims zweite Herrenmannschaft in der Kreisliga A zur Sache.
 								<br><br>Nach der erfolgreichen Aufstiegsrelegation hat sich Trainer Marco Schill fest das Ziel gesetzt den Klassenerhalt in der Kreisliga A zu schaffen. Aus diesem Grund wurde die Vorbereitung kurzerhand 2 Wochen vor den anderen Weilheimer Teams gestartet. Der Kader wird sich folgendermaßen ändern: Andreas Klein beendet leider nach Längjähriger Zugehörigkeit seine Karriere. Aus der A-Jugend rücken Dan Stelzer und Marco Zaiser nach. Felix Kupferschmid wird nach seiner langen Verletzungspause auch wieder für Weilheims Zweite an den Start gehen. Als Neuzugang ist noch Kai Huber zu verbuchen, der vom TSV Owen den Weg unter die Limburg gefunden hat.
 								<br><br>Somit gut aufgestellt und voller Willen das Ziel des Trainers umzusetzen wird die neue Saison gestartet. Auf zahlreiche Unterstützung der Weilheimer Fans wird natürlich auch stark gesetzt.
-									';	
+								';	
 							}else if($site=="damen"){
 								echo '<img src="img/teams/d1.jpg" class="img-responsive" id="MannschBild"  />';										
 								$title='
+								<b>Hinten:</b> Lisa Attinger, Eva Pflüger, Julia Gutbrod, Kathrin Ulmer, Monja Reichle, Nicole Sigel.
+								<br>
+								<b>Vorne:</b> Co-Trainer Christo Kiriakidis, Xenia Veith, Anke Moll, Britta Braun, Rebecca Glaab, Johanna Chrobak, Trainer Andreas Klöhn.
+								<br>
+								<b>Es Fehlen:</b> Anne Heid, Emma Schober, Carla Fischer.
+								<br>
+								<br>
+								<b>Saisonausblick 2018/19</b>
+								<br>
 								<br>Eine Saison mit Höhen und Tiefen beendete die 1. Damenmannschaft auf dem 8. Platz im sicheren Tabellenmittelfeld. Auch die 2. Damenmannschaft konnte ihr Saisonziel erreichen und hat sich den Klassenerhalt in der Bezirksklasse gesichert. Nach einem Jahr hat Martina Böhm ihr Traineramt bei der 1. Mannschaft niedergelegt. An dieser Stelle wollen wir ihr für ihr großes Engagement für die Mannschaft danken. Zudem mussten wir sowohl in der ersten als auch in der zweiten Damenmannschaft einige Abgänge hinnehmen, die menschlich und auch spielerisch Lücken hinterlassen werden.
 
 								<br><br>Deshalb starten die beiden Mannschaften in die Vorbereitung der kommenden Saison gemeinsam unter ihrem neuen Trainerduo Andreas Klöhn und Christo Kiriakidis. Beide haben bereits in der letzten Saison jeweils eine Damenmannschaft trainiert und schließen sich nun für die kommende Spielzeit zusammen. Das neue Trainergespann setzt auch in der neuen Saison weiterhin auf den bewährten Tempohandball, wobei es gilt die Abgänge zu kompensieren. Das soll vor allem durch eine geschlossene Mannschaftsleistung der bestehenden Kräfte gelingen. Trainer und Spielerinnen fokussieren hierbei gemeinsam einen Platz im oberen Tabellendrittel in der Bezirksliga und den erneuten Klassenerhalt in der Bezirksklasse an.
@@ -65,6 +87,16 @@
 							}else if($site=="damen2"){
 								echo '<img src="img/teams/d2.jpg" class="img-responsive" id="MannschBild"  />';										
 								$title='
+								<b>Hinten:</b> Johanna Chrobak, Julia Koser, Eva Pflüger, Monja Raichle, Laura Tremmel, Rebecca Glaab.
+								<br>
+								<b>Vorne:</b> Trainer Christo Kiriakidis, Alisa Schaal, Xenia Veith, Britta Braun, Katharina Karban, Hannah Schumacher, Co-Trainer Andreas Klöhn.
+								<br>
+								<b>Es Fehlen:</b>  Anna Serbine, Cindy Braun, Lena Sigel, Carla Fischer, Viktoria Slavulj.
+								
+								<br>
+								<br>
+								<b>Saisonausblick 2018/19</b>
+								<br>
 								<br>Eine Saison mit Höhen und Tiefen beendete die 1. Damenmannschaft auf dem 8. Platz im sicheren Tabellenmittelfeld. Auch die 2. Damenmannschaft konnte ihr Saisonziel erreichen und hat sich den Klassenerhalt in der Bezirksklasse gesichert. Nach einem Jahr hat Martina Böhm ihr Traineramt bei der 1. Mannschaft niedergelegt. An dieser Stelle wollen wir ihr für ihr großes Engagement für die Mannschaft danken. Zudem mussten wir sowohl in der ersten als auch in der zweiten Damenmannschaft einige Abgänge hinnehmen, die menschlich und auch spielerisch Lücken hinterlassen werden.
 
 								<br><br>Deshalb starten die beiden Mannschaften in die Vorbereitung der kommenden Saison gemeinsam unter ihrem neuen Trainerduo Andreas Klöhn und Christo Kiriakidis. Beide haben bereits in der letzten Saison jeweils eine Damenmannschaft trainiert und schließen sich nun für die kommende Spielzeit zusammen. Das neue Trainergespann setzt auch in der neuen Saison weiterhin auf den bewährten Tempohandball, wobei es gilt die Abgänge zu kompensieren. Das soll vor allem durch eine geschlossene Mannschaftsleistung der bestehenden Kräfte gelingen. Trainer und Spielerinnen fokussieren hierbei gemeinsam einen Platz im oberen Tabellendrittel in der Bezirksliga und den erneuten Klassenerhalt in der Bezirksklasse an.

@@ -107,62 +107,89 @@
 											if($site=="erste"){
 												echo '<img src="img/teams/h1.jpg" class="img-responsive" id="MannschBild" />';	
 												$title='
-												<b>Hintere Reihe:</b> Alexander Späth, Patrick Auweter, Timmy Hiller, Patrick Seyferle, German Höferer, Josef Roth, Jan Stark, Karl-Friedrich Schumacher.
-												<br/><b>Vordere Reihe:</b> Trainer Martin Weiss, Luca Pfeffer, Florian Klett, Dominik Klett, Bernhard Illi, Moritz Latzel, Benedikt Schmid, Benjamin Banzhaf, Christopher Allgaier, Andreas Klöhn, Co-Trainer Bernd Bierbaum.
-												<br/><b>Es fehlen:</b> Timo Höfert
-												
-												<br/><br/>Hinter dem TSV Weilheim liegt eine durchwachsene Saison. Die Mannschaft startete mit zwei Siegen gut in die Runde, zeigte danach aber starke Leistungsschwankungen, welche ein besseres Abschneiden verhinderten. Der TSV Weilheim schloss die Spielzeit 2016/2017 auf dem insgesamt enttäuschenden siebten Tabellenplatz ab. Hauptgründe für das unbefriedigende Abschneiden waren viele verletzungsbedingte Ausfälle. Gleich zu Saisonbeginn verletzten sich Marcel Steinke und Manuel Bauer schwer und fielen für die restliche Saison aus. Mittlerweile sind die Spieler wiedergenesen. Ein Comeback ist allerdings nicht möglich, so dass beide Spieler leider ihre Karrieren beenden mussten. Als weiteren Grund nennt Weiss, dass berufsbedingt selten der gesamte Kader im Training anwesend sein konnte: „Wir waren dadurch nicht so eingespielt wie andere Mannschaften“. 
-												<br/><br/>In der Vorbereitung vergrößerte Weiss den bestehenden Kader mit Spielern aus der zweiten Mannschaft. So trainieren Moritz Latzel, Andreas Klöhn, German Höferer und Karl-Friedrich Schumacher nun mit der ersten Mannschaft. Neu im Weilheimer Dress ist mit Timmy Hiller zudem ein alter Bekannter. Hiller spielte von 2011 bis 2014 drei Spielzeiten für den TSV Weilheim, wechselte dann in die Landesliga zu seinem Heimatverein HC Wernau, von dem er nun zurück nach Weilheim kehrte. Ebenfalls vom HC Wernau kam Linksaußen Luca Pfeffer und aus der eigenen A-Jugend rückte Timo Höfert auf. Dadurch stehen Weiss nun in jedem Training immer mindestens 14 Spieler zur Verfügung, berufsbedingte Trainingsausfälle können so kompensiert werden. Zudem belebte der größere Kader den Konkurrenzkampf. Mit Florian Braun verlässt allerdings ein Leistungsträger den TSV Weilheim. Braun wechselt zu Landesligist TSV Grabenstetten. Zudem beendete Fabian Zettl aufgrund immer wieder auftretender Schulterprobleme seine Handballkarriere. Im Tor beendete Markus Maier seine aktive Laufbahn. Insgesamt ist es ein deutlicher Aderlass, den der TSV Weilheim kompensieren muss. 
-												<br/><br/>Ziel für die neue Saison ist es, zunächst Distanz zu den Abstiegsrängen aufzubauen. Anschließend wird man sehen müssen, welche Platzierung in der starken Bezirksligastaffel möglich sein wird. Favoriten auf den Aufstieg sind der VfL Kirchheim, der sich gut verstärken konnte und Landesligaabsteiger SV Vaihingen. Neu in der Liga ist EK Bernhausen, die Filderstädter spielten bisher in der Eichenkreuzliga des evangelischen Jugendwerks in Württemberg. Im Bezirkspokal kam die Mannschaft bis in das „Final Four“, daher zählen auch die Bernhäuser zu den Aufstiegsfavoriten. Interessant werden außerdem auch wieder die Derbys gegen den TSV Owen und die SG Lenningen.
-												
+												<b>Hinten:</b> Maximilian Müller, Jan Stark, Leander Banzhaf, Calvin Hartmann, Florian Braun, Patrick Seyferle, Jakob Klein, Alexander Späth.
+												<br>
+												<b>Vorne:</b> Trainer Michael Rehkugler, Jakob Ulmer, Timo Sigel, Benedikt Schmid, Moritz Latzel, Timo Höfert, Dominik Klett, Co-Trainer Bernd Bierbaum.
+												<br>
+												<b>Es fehlen:</b> Benjamin Banzhaf, Josef Roth, Bernhard Illi.
+												<br>
+												<br>
+												<b>Saisonausblick 2018/19</b>
+												<br>
+												Hinter der ersten Herrenmannschaft des TSV Weilheim liegt eine enttäuschende Saison 2017/18. Am Ende bedeutet der 12. und somit vorletzte Platz den schweren Gang von der Bezirksliga in die Bezirksklasse. Für eine Bezirksligastaffel, in der sich die meisten Mannschaften personell verstärkt und konstant weiterentwickelt haben, war der Kader dieses Jahr zu schwach. Der Abstieg ist für einige die logische Folge eines Negativtrends, der sich bereits in der Spielzeit 2016/17 abzeichnete.
+												<br><br>
+												Während die Abwehrleistung in den meisten Spielen abgerufen werden konnte und man sich mit 663 Gegentoren in 24 Spielen (Ø 27 Gegentore/Spiel) durchaus mit den Teams in der oberen Tabellenhälfte messen konnte, fehlte es im Angriff deutlich an Effizienz (Ø 25 erzielte Tore/Spiel). Zu wenig einfache Tore aus dem Tempogegenstoß und fehlende Durchschlagskraft im positionsbezogenen Angriffsspiel waren die wohl bedeutendsten Faktoren, die dafür sorgten, dass man auch in knappen Spielen nicht als Sieger vom Platz gehen konnte und am Ende berechtigt abgestiegen ist.
+												<br><br>
+												Nachdem man sich in der Winterpause der abgelaufenen Saison von Trainer Martin Weiss trennte und mit Timo Klein und Sebastian Sigel die Runde beendete, wird für die kommende Spielzeit ein neuer Mann die Leitung übernehmen. Der neue Mann ist allerdings ein Altbekannter: Michael Rehkugler, zu seinen aktiven Zeiten Torwart der Roten, trainierte vergangene Saison den TSV Grabenstetten und will die Weilheimer nun schnellstmöglich zurück in die Bezirksliga führen. Schnelles und strukturiertes Umschaltspiel in der ersten und zweiten Welle und \„jeder muss wissen was er zu tun hat\“ lauten die ersten Vorgaben für dieses Vorhaben.
+												<br><br>
+												Das Grundgerüst des Kaders bleibt größtenteils auch für die kommende Saison in der Bezirksklasse bestehen. Mit Patrick Auweter und Sebastian Sigel ziehen sich allerdings zwei routinierte Stützen aus dem aktiven Handball zurück. Auch Timmy Hiller, der ein zweites Mal für eine letzte Saison vom HC Wernau zu den Weilheimern gewechselt war und die Mannschaft als sicherer Siebenmeterschütze oftmals im Spiel hielt, beendet seine Karriere. Komplettiert werden die Abgänge durch Christopher Allgaier, der aus beruflichen Gründen die Zeit für das Handballspielen nicht mehr aufbringen kann.
+												<br><br>
+												Neu im Kader hingegen sind Maximilian Müller und das Weilheimer Eigengewächs Florian Braun. Letzterer wechselt nach einem Jahr beim TSV Grabenstetten in der Landesliga wieder zurück in die Heimat und soll im linken Rückraum, sowie im Innenblock für Stabilität sorgen. Müller kommt vom TSV Owen II und bringt mit seiner Schnelligkeit und Dynamik frischen Wind ins stockende Angriffsspiel der Roten.
+												Das gesamte Team freut sich trotz des Abstiegs auf einen Neustart in einer Liga mit Spielen gegen mehrere weitestgehend unbekannte Mannschaften und hofft auf eine erfolgreiche Saison mit der gewohnt zahlreichen Unterstützung der Weilheimer Anhänger.
+												<br><br>
+												<b>Kader:</b>
+												<br>
+												Bernhard Illi, Moritz Latzel, Benedikt Schmid, Dominik Klett, Patrick Seyferle, Benjamin Banzhaf, Alexander Späth, Josef Roth, Jan Stark, Timo Sigel, Luca Pfeffer, Timo Höfert, Maximilian Müller, Jakob Klein, Florian Braun.
+												<br><br>
+												<b>Trainer:</b>
+												<br>
+												Michael Rehkugler, Bernd Bierbaum (Co-Trainer)
 												';
 											}else if($site=="zweite"){
 												echo '<img src="img/teams/h2.jpg" class="img-responsive" id="MannschBild" />';			
 												$title='
-												<b>Hintere Reihe:</b> Dan Stelzer, Marco Fiedler, Dominic Zettl, Timo Sigel, Christos Kiriakidis, Andreas Klein, Trainer Marco Schill
-												<br/><b>Vordere Reihe:</b> Michael Bender, Felix Kupferschmid, Benjamin Hayler, Mark Sigel, Marco Zaiser, Samuel Braun, Timo Klein
-												<br/><br/>Kreisliga ist...
-												<!--
-												 ____      ____      ____________
-												|    |    |    |    |            |
-												|    |    |    |    |_______     |
-												|    |    |    |            |    |
-												|    |____|    |     _______|    |
-												|              |    |            |
-												|     ____     |    |     _______|
-												|    |    |    |    |    |
-												|    |    |    |    |    |_______
-												|    |    |    |    |            |
-												|____|    |____|    |____________|
-												-->
+												<b>Hinten:</b> Co-Trainer Timo Klein, Leander Banzhaf, Timo Höfert, Jakob Ulmer, Christo Kiriakidis, Marco Zaiser, Felix Kupferschmid, Trainer Marco Schill.
+												<br>
+												<b>Vorne:</b> Dan Stelzer, Kai Huber, Andreas Klöhn, Mark Sigel, Benedikt Schmid, Dominic Zettl, Karl-Friedrich Schumacher, Marco Fiedler.
+												<br>
+												<br>
+												<b>Saisonausblick 2018/19</b>
+												<br>
+												Unter dem Motto: Wer B sagt muss auch A sagen, geht es diese Saison für Weilheims zweite Herrenmannschaft in der Kreisliga A zur Sache.
+												<br><br>Nach der erfolgreichen Aufstiegsrelegation hat sich Trainer Marco Schill fest das Ziel gesetzt den Klassenerhalt in der Kreisliga A zu schaffen. Aus diesem Grund wurde die Vorbereitung kurzerhand 2 Wochen vor den anderen Weilheimer Teams gestartet. Der Kader wird sich folgendermaßen ändern: Andreas Klein beendet leider nach Längjähriger Zugehörigkeit seine Karriere. Aus der A-Jugend rücken Dan Stelzer und Marco Zaiser nach. Felix Kupferschmid wird nach seiner langen Verletzungspause auch wieder für Weilheims Zweite an den Start gehen. Als Neuzugang ist noch Kai Huber zu verbuchen, der vom TSV Owen den Weg unter die Limburg gefunden hat.
+												<br><br>Somit gut aufgestellt und voller Willen das Ziel des Trainers umzusetzen wird die neue Saison gestartet. Auf zahlreiche Unterstützung der Weilheimer Fans wird natürlich auch stark gesetzt.
 												';	
 											}else if($site=="damen"){
 												echo '<img src="img/teams/d1.jpg" class="img-responsive" id="MannschBild"  />';										
 												$title='
-												<b>Hintere Reihe:</b> Trainerin Martina Böhm, Monja Reichle, Eva Pflüger, Stephanie Leins, Viktoria Slavulj, Tanja Bachofer, Franziska Schmid, Nicole Sigel, Trainer Andreas Klöhn
-												<br/><b>Vordere Reihe:</b> Hanna Schumacher, Carla Fischer, Lisa Attinger, Anne Heid, Stefanie Stark, Lisa-Marie Attinger, Emma Schober, Xenia Veith, Katharina Kehrer 
-												<br/><b>Es fehlen:</b> Kathrin Ulmer, Anke Moll, Julia Gutbrod, Britta Braun
+												<b>Hinten:</b> Lisa Attinger, Eva Pflüger, Julia Gutbrod, Kathrin Ulmer, Monja Reichle, Nicole Sigel.
 
-												<br/><br/>Die vergangene Saison beendete die 1. Damenmannschaft des TSV Weilheim auf dem 9. Tabellenplatz. Das Saisonziel, die Klasse zu halten, wurde somit erreicht. Dennoch ist dieses Ergebnis nicht zufriedenstellend, da durch die fehlende Konstanz von guten Leistungen bis zum Schluss um den Klassenerhalt gekämpft werden musste. Nach einem Jahr als Trainer der ersten Damenmannschaft wechselte Trainer Dimitrios Pasalis in den Jugendbereich zurück, um dort wieder den Handballnachwuchs zu fördern. Zudem haben mit Nicole Schmid, Heike Schrägle und Stephanie Schwarz drei wichtige Spielerinnen ihre aktive Zeit in der 1. Damenmannschaft beendet.  An dieser Stelle danken wir allen vier für ihr Engagement, das sie immer für die Mannschaft aufgebracht haben. 
-
-												<br/><br/>Zur neuen Saison haben Martina Böhm und Andreas Klöhn die Mannschaft übernommen und bilden in der kommenden Saison das Trainerteam an der Seitenlinie. Auch der Kader unserer ersten Damenmannschaft hat sich verändert, so dürfen wir mit Monja Reichle einen ersten Neuzugang begrüßen. Monja wechselte vom Lokalrivalen SG Lenningen nach Weilheim.  Aus der zweiten Damenmannschaft rückten Nicole Sigel und Anne Heid auf und mit Xenia Veith, Carla Fischer und Eva Pflüger kann die Mannschaft zudem auf talentierte A-Jugendspielerinnen bauen. Zudem hat die Mannschaft die volle Unterstützung aus der zweiten Damenmannschaft, deren Spielerinnen in personellen Engpässen aushelfen werden. Das Trainerduo Böhm/ Klöhn hat es sich zur Aufgabe gemacht aus der neu formierten Mannschaft ein einheitliches Team zu formen und fokussieren gemeinsam mit ihren Mädels einen Platz in der oberen Tabellenhälfte. Dank dem gut aufgestellten Kader eine durchaus machbare Aufgabe.  Wir bedanken uns für die zahlreiche Unterstützung in der vergangenen Saison und freuen uns auf eine erfolgreiche und verletzungsfreie Saison 2017/18.
-
+												<br>
+												<b>Vorne:</b> Co-Trainer Christo Kiriakidis, Xenia Veith, Anke Moll, Britta Braun, Rebecca Glaab, Johanna Chrobak, Trainer Andreas Klöhn.
+												
+												<br>
+												<b>Es Fehlen:</b> Anne Heid, Emma Schober, Carla Fischer.
+												<br>
+												<br>
+												<b>Saisonausblick 2018/19</b>
+												<br>
+												<br>Eine Saison mit Höhen und Tiefen beendete die 1. Damenmannschaft auf dem 8. Platz im sicheren Tabellenmittelfeld. Auch die 2. Damenmannschaft konnte ihr Saisonziel erreichen und hat sich den Klassenerhalt in der Bezirksklasse gesichert. Nach einem Jahr hat Martina Böhm ihr Traineramt bei der 1. Mannschaft niedergelegt. An dieser Stelle wollen wir ihr für ihr großes Engagement für die Mannschaft danken. Zudem mussten wir sowohl in der ersten als auch in der zweiten Damenmannschaft einige Abgänge hinnehmen, die menschlich und auch spielerisch Lücken hinterlassen werden.
+				
+												<br><br>Deshalb starten die beiden Mannschaften in die Vorbereitung der kommenden Saison gemeinsam unter ihrem neuen Trainerduo Andreas Klöhn und Christo Kiriakidis. Beide haben bereits in der letzten Saison jeweils eine Damenmannschaft trainiert und schließen sich nun für die kommende Spielzeit zusammen. Das neue Trainergespann setzt auch in der neuen Saison weiterhin auf den bewährten Tempohandball, wobei es gilt die Abgänge zu kompensieren. Das soll vor allem durch eine geschlossene Mannschaftsleistung der bestehenden Kräfte gelingen. Trainer und Spielerinnen fokussieren hierbei gemeinsam einen Platz im oberen Tabellendrittel in der Bezirksliga und den erneuten Klassenerhalt in der Bezirksklasse an.
+				
+												<br><br>Wir bedanken uns für die zahlreiche Unterstützung in der vergangenen Saison und freuen uns auf eine noch erfolgreichere und verletzungsfreie Saison 2018/2019. Natürlich zählen wir auch in diesem Jahr wieder auf die lautstarke Unterstützung der Weilheimer Fans!
 												
 												';
 											}else if($site=="damen2"){
 												echo '<img src="img/teams/d2.jpeg" class="img-responsive" id="MannschBild"  />';										
 												$title='
-												
-												<b>Hintere Reihe:</b> Isabel Hieber, Katharina Karban, Victoria Slavul, Hanna Schumacher, Laura Tremmel, Nicole Sigel
-												<br/><b>Vordere Reihe:</b> Eva Pflüger, Carla Fischer, Lena Sigel, Ulla Diez, Xenia Veith
-												<br/><b>Es fehlen:</b> Katja Hannig, Julia Koser, Rebecca Glaab, Anne Heid, Sabrina Fischer
-												
-												<br/><br/>Nach einer gut gelaufenen Saison 2016/2017 belegte die zweite Damenmannschaft des TSV Weilheim den 2. Tabellenplatz und sicherte sich somit noch den direkten Aufstieg in die Bezirksklasse. Das angestrebte Saisonziel, Tabellenplatz 3, wurde damit sogar übertroffen.
-												<br/><br/>Nach dem letzten Heimspieltag wurde Trainer Andreas Klöhn in die 1. Damenmannschaft verabschiedet. Ebenfalls verabschieden musste man sich von Co-Trainerin Nicole Reehten.  
-												<br/><br/>Schon in den letzten Runden hat sich die Integration der A-Jugendlichen in die Mannschaft ausgezahlt. Neben Hanna Schumacher und Viktoria Slavulj, die mittlerweile fester Bestandteil der Damen 2 sind und ihre Jugendspielzeit nun beenden, sind im Laufe der letzten Saison auch Carla Fischer und Xenia Veith zu tragenden Persönlichkeiten der Mannschaft geworden. Verstärkt werden die Damen 2 nun zusätzlich durch Eva Pflüger (A-Jugend), sowie Katja Hannig (zurück aus der Babypause).
-												 
-												<br/><br/>Leider startete die 2. nun trainerlos in die Vorbereitung zur Saison 2017/2018. Trotzdem wurde die Vorbereitungsphase intensiv genutzt. Mit dem neuen Saisonziel -Klassenerhalt- hat sich die 2. Weilheimer Damenmannschaft ein durchaus erreichbares Ziel gesetzt.
+												<b>Hinten:</b> Johanna Chrobak, Julia Koser, Eva Pflüger, Monja Raichle, Laura Tremmel, Rebecca Glaab.
 
+												<br>
+												<b>Vorne:</b> Trainer Christo Kiriakidis, Alisa Schaal, Xenia Veith, Britta Braun, Katharina Karban, Hannah Schumacher, Co-Trainer Andreas Klöhn.
+												
+												<br>
+												<b>Es Fehlen:</b>  Anna Serbine, Cindy Braun, Lena Sigel, Carla Fischer, Viktoria Slavulj.
+												
+												<br>
+												<br>
+												<b>Saisonausblick 2018/19</b>
+												<br>
+												<br>Eine Saison mit Höhen und Tiefen beendete die 1. Damenmannschaft auf dem 8. Platz im sicheren Tabellenmittelfeld. Auch die 2. Damenmannschaft konnte ihr Saisonziel erreichen und hat sich den Klassenerhalt in der Bezirksklasse gesichert. Nach einem Jahr hat Martina Böhm ihr Traineramt bei der 1. Mannschaft niedergelegt. An dieser Stelle wollen wir ihr für ihr großes Engagement für die Mannschaft danken. Zudem mussten wir sowohl in der ersten als auch in der zweiten Damenmannschaft einige Abgänge hinnehmen, die menschlich und auch spielerisch Lücken hinterlassen werden.
+				
+												<br><br>Deshalb starten die beiden Mannschaften in die Vorbereitung der kommenden Saison gemeinsam unter ihrem neuen Trainerduo Andreas Klöhn und Christo Kiriakidis. Beide haben bereits in der letzten Saison jeweils eine Damenmannschaft trainiert und schließen sich nun für die kommende Spielzeit zusammen. Das neue Trainergespann setzt auch in der neuen Saison weiterhin auf den bewährten Tempohandball, wobei es gilt die Abgänge zu kompensieren. Das soll vor allem durch eine geschlossene Mannschaftsleistung der bestehenden Kräfte gelingen. Trainer und Spielerinnen fokussieren hierbei gemeinsam einen Platz im oberen Tabellendrittel in der Bezirksliga und den erneuten Klassenerhalt in der Bezirksklasse an.
+				
+												<br><br>Wir bedanken uns für die zahlreiche Unterstützung in der vergangenen Saison und freuen uns auf eine noch erfolgreichere und verletzungsfreie Saison 2018/2019. Natürlich zählen wir auch in diesem Jahr wieder auf die lautstarke Unterstützung der Weilheimer Fans!
 												';
 											}else if($site=="js"){
 												echo '<img src="img/teams/js.jpg" class="img-responsive" id="MannschBild"  />';										
@@ -193,50 +220,72 @@
 											else if($site=="vs"){
 												echo '<img src="img/teams/vs.jpg" class="img-responsive" id="MannschBild"  />';										
 												$title='
+								
+												Liebe Freunde des Handballsports,
+												Sehr geehrte Sponsoren,
+												Hallo Handballabteilung und Vereinsmitglieder,
 												
-												<b>Sportliche Leitung</b></b>
-												<br/><b>Roland Bendl (links)</b>
-												<br/><br/><b>Wirtschaftsvorstand</b></b>
-												<br/><b>Florian Mauch (mitte)</b>
-												<br/><br/><b>Öffentlichkeitsarbeit und Marketing</b></b>
-												<br/><b>Gunter Zettl (rechts)<span style="color: #333333; font-family: Tahoma, Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.3em;"> </span></b>
+												<br><br>wie in den Jahren zuvor heißt es auch in diesem Jahr für die Weilheimer Handballer Mitte September „Los geht’s!“. Der Spielbetrieb für die Saison 2018/19 steht vor der Tür. 
 												
-												<br/><br/><b><span style="line-height: 1.3em;">Saison 2014/15</span></b>
-												<br/><br/>Wie in den Jahren zuvor beginnt für die Weilheimer Handballer Mitte September der Spielbetrieb für die Saison 2014/15. Nach intensiver Saisonvorbereitung der einzelnen Teams, heißt es nun die vorgenommenen Ziele in die Tat umzusetzen.
-												<br/><br/>Wie im Vorjahr wird die zweite Damenmannschaft vom Trainerteam Kaufmann/Kiriakidis betreut. Hatte die Mannschaft sich im letzten Jahr einen Platz im Mittelfeld vorgenommen, so möchte man in dieser Saison einen weiteren Schritt nach vorne machen und sich in der oberen Tabellenhälfte der Kreisliga A etablieren.
-												<br/><br/>Das Bezirksligateam der ersten Damenmannschaft wird weiterhin von Martin Weiss trainiert. Der Mannschaft gelang es im letzten Jahr den Weggang von Topspielerin Kim Prengel durch größere mannschaftliche Geschlossenheit zu kompensieren. Leider war das Team aber in seinen Leistungen noch zu schwankend. Wenn es der Truppe gelingt mehr Stabilität zu zeigen, ist ein Platz im oberen Drittel der Tabelle auf jeden Fall realistisch.
-												<br/><br/>Erstmalig wird in diesem Jahr vom Bezirk eine AD/AH Runde für die Damen ausgetragen. Die infrage kommenden Weilheimer Spielerinnen waren sogleich dafür zu haben. Es wurde daraufhin eine Mannschaft gemeldet. Wir wünschen Ihnen in der ersten Saison viel Erfolg.
-												<br/><br/>Die zweite Herrenmannschaft verpasste im letzten Jahr leider den Saisonziel Klassenerhalt. Nach einem teilweise recht unglücklichen Saisonverlauf mit einigen knappen Niederlagen, findet man sich in dieser Saison in der Kreisliga B wieder. Hier sollte aber für die Mannschaft von Trainer Florian Mauch ein guter Tabellenplatz kein Problem sein.
-												<br/><br/>Die erste Herrenmannschaft startet mit einem neuen Trainer in die Saison. Mit Alen Dimitrijevic tritt kein Unbekannter dieses Amt an, war er doch vor Jahren schon einmal Trainer unter der Limburg. Personell gab es keine großen Veränderungen. Den Abgang von Timmy Hiller und Alexander Müske konnte man mit dem Heimkehrer Patrick Auweter und Markus Mayer ausgleichen. Vom Leistungsvermögen der Mannschaft sollte die Vorjahresplatzierung jedenfalls erreichbar sein.
-												<br/><br/>Wie die „Erste“, so haben auch unsere Jungsenioren einen neuen Coach. Mit Hansi Pietsch ist es jedoch eine bekannte Weilheimer Handballgröße. Mit neuen Trainingsinhalten wird er versuchen das Team zu möglichst vielen Erfolgserlebnissen zu führen.
-												<br/><br/>Schon vor dem ersten Anpfiff möchte sich die Handballabteilung jedoch bei ihren Gönnern, Sponsoren und unermüdlichen Helfern für die Unterstützung bedanken. Ohne diese Hilfe wäre ein Spielbetrieb nicht aufrecht zu erhalten. „Last but not least“ schon jetzt ein großes Dankeschön an unser tolles Publikum für vergangene und zukünftige Unterstützung.
-												<br/><br/><strong><span style="line-height: 1.3em;">Vorstandschaft</span></strong><br /><strong>TSV Weilheim</strong><br /><strong>Abteilung Handball</strong>
-
+												<br><br>Die Saisonvorbereitungen der einzelnen Teams sind fast abgeschlossen, die Spielpläne stehen. Nun heißt es die gesteckten Ziele in die Tat umzusetzen. Der neue Vorstand wünscht allzeit – Gut SPIEL!
 												
+												<br><br>Der neue Vorstand das sind Gunter Zettl, Markus Meyer und Swen Dulkies.
+												Gunter und Swen kümmern sich um die verwaltungstechnischen Dinge und Finanzen. Markus Hauptaugenmerk liegt im Bereich Spieltechnik (Mannschaften, Trainer etc.).  
+												<br>Als am 16. März dieses Jahres die Abteilung zur Jahreshauptversammlung zusammenkam schien alles organisiert und geregelt. Aber von jetzt auf gleich stand Gunter Zettl alleine im Ring – die Abteilung ohne handlungsfähigen Vorstand. Nach einigen Unterbrechungen und intensiven Gesprächen fanden sich Markus Meyer und Swen Dulkies bereit, zusammen mit Gunter Zettl die anstehenden Aufgaben für ein Jahr anzugehen. Swen Dulkies war in der Abteilung nur eher den Würdenträgern ein Begriff, da er seit ca. 14 Jahren für die Handballabteilung nur als Schiedsrichter im Bezirk und auf HVW Ebene im Einsatz ist. 
+												<br>Der Vorstand sowie alle Ressortleiter und der Förderverein haben bisher diverse Sitzungen und Telefongespräche geführt, um alles für die neue Saison vorzubereiten. Es wird mit Freude und Respekt gearbeitet.
+												<br>Es sind trotzdem alle Abteilungsmitglieder und auch die, die welche werden möchten, aber außer denen, die sowieso schon jedes Wochenende in der Halle verbringen, eingeladen sich an der Vereinsarbeit zu beteiligen.
+												
+												<br><br>Spieltechnik:
+												
+												<br><br><b>Jugend: „ Back to the roots“</b>
+												<br>Durch die Aufkündigung der SG Teck durch den TSV Owen in der vergangenen Saison musste sich die Jugendabteilung komplett neu gestalten. 
+												An dieser Stelle gilt unser besonderer Dank der Jugendleitung sowie der Projektgruppe und deren mitwirkenden Eltern, die mit großem Engagement und Zeitaufwand, in hervorragender Art und Weise die Neustrukturierung realisiert haben.  
+												
+												<br><br><b>Herren I:</b>
+												<br>Nach Licht und Schatten in der letzten Saison die wie bekannt, mit dem Abstieg in die Bezirksklasse endete, will die Mannschaft zusammen mit dem neuen Trainer Michael Rehkugler den direkten Wiederaufstieg schaffen. Allen Beteiligten ist jedoch bewusst, dass dies kein Selbstläufer wird. 
+												
+												<br><br><b>Damen I:</b>
+												<br>Nach einer recht erfolgreichen Saison 2017/2018 startet das Team um das Trainergespanns Klöhn/ Kiriakidis voll motiviert in die neue Saison. Es sind zwar personelle Abgänge zu verzeichnen, aber dies sollte durch die Neuzugänge und die Geschlossenheit der Mannschaft zu kompensieren sein.  
+												
+												<br><br><b>Herren II:</b>
+												<br>Die Mannschaft um das Trainer Duo Schill/Klein hat es geschafft, durch ihren starken Willen und Teamgeist die Saison mit dem Aufstieg in die Kreisliga A abzuschließen. An dieser Stelle nochmals herzlichen Glückwunsch! 
+												
+												<br><br><b>Damen II:</b>
+												<br>Die Mannschafft, die sich vor Jahren selbst gefunden hat, ist aus der Abteilung nicht mehr wegzudenken. Das Team, das ebenfalls vom Duo  Klöhn/ Kiriakidis trainiert wird,  dürfte auch in dieser Saison immer für eine Überraschung gut sein.
+												
+												<br><br>Wir, die Vorstandschaft wünschen allen Mannschaften eine verletzungsfreie und erfolgreiche Saison 2018/2019.
+												
+												<br><br>Schon vor dem ersten Anpfiff möchte sich die Handballabteilung jedoch bei ihren Gönnern, Sponsoren und unermüdlichen Helfern für die Unterstützung bedanken. Ohne diese Hilfe wäre ein Spielbetrieb nicht aufrecht zu erhalten. „Last but not least“ schon jetzt ein großes Dankeschön an unser tolles Publikum für vergangene und zukünftige Unterstützung.
+												
+												<br><br>Es sei an dieser Stelle dringend darauf hingewiesen, dass alle Beteiligten in den Sporthallen sich mit dem nötigen Respekt begegnen. Dazu zählt auch, dass man dem Schiedsrichter/in dies entgegen bringt. 
+												
+												
+												<br><br>Mit sportlichen Grüßen
+												
+												<br><br>Der Abteilungsvorstand Handball								
 												
 											';
 											}
 											else if($site=="jl"){
 												echo '<img src="img/teams/jl.jpg" class="img-responsive" id="MannschBild"  />';										
 												$title='
-												<div class="text-center" style="background-color:white;"><b>Jugendleiter/in</b></b><br>
-													Annette Breuninger (rechts)<br><br>
-													Friedrich Schumacher<br><br>
-													<b>stellv. Jugendleiterin</b></b><br>
-													Maike Sigel</div>
-												
-												
+												<b>Jugend unter neuer Farbe</b>
+				
+												<br><br>seit nun im März 2018 die Saison zu Ende ging trat die Trennung der SG Teck in Kraft und die Weilheimer Handballer spielen wieder in der Farbe Rot. Die neuen Trikots, um die sich der Handball-Förderverein engagiert kümmerte erhielten bei den Bezirksspielfesten und Turnieren Gelegenheit für ihren ersten Auftritt. Ganz in Vereinsfarbe leuchtend rot erkennt jeder die Weilheimer Zugehörigkeit. Nicht nur die neuen Trikots sind Anzeichen der Veränderung unser Berthi hat kaum merklich zu allen Gelegenheiten Einzug gehalten und ist schon jetzt nicht mehr wegzudenken. Auf Trikots, im Blättle, auf der Homepage, auf der Torwand überall findet man ihn wieder. Nicht nur das, Weilheims Vielfalt ist nun auch um eine Berthi-Wurst und ein Berthi-Eis reicher. 
+												<br><br>Neben der Wiederentdeckung der Weilheimer Zughörigkeit haben sich in der Handball-Jugend die Mannschaften formiert. Vor allem in den jüngeren Jugenden stieg der Zuwachs stetig an und wir können auf erfreulich große Mannschaften blicken. Im weibliche Bereich ist der TSV mit engagierten Spielerinnen gut eingedeckt. Im männlichen Bereich sind die Spieler ebenfalls engagiert, es könnten jedoch mehr sein. Die Aktionen über das Frühjahr und Sommer hinweg, wie ein Ausflug nach Rust, ein Sporttag in der Lindach-Sporthalle, Bezirksspielfeste und Turniere, Städtlesfest werden im Herbstcamp am 29. und 30. Oktober 2018 der Jahrgänge 2002 bis 2011 ihren Höhepunkt finden. Und die Weihnachtsfeier in neuem Format wird das Jahr 2018 gebührend abschließen.
+												<br><br>Für die Saison 2018/2019 wünschen wir allen Spielern und Trainern viel Erfolg und faire Spiele und auch den ein oder anderen Zugang. Nicht oft genug können wir uns bei den Jugendtrainern des TSV für ihre Arbeit und ihren Einsatz bedanken, deshalb auch an dieser Stelle ein ganz herzliches Dankeschön!
+												<br><br>Jugendleitung 
+												<br>Annette Breuninger und Maike Sigel				
 												';
 											}
 											else if($site=="wa"){
 												echo '<img src="img/teams/wa.jpg" class="img-responsive" id="MannschBild"  />';										
 												$title='
-												
-													All diese auf dem Bild zu sehenden Gesichter sind die Gesichter des Wirtschaftsausschusses der Handballabteilung des TSV Weilheim. Im Wirtschaftsausschuss befindet sich unter anderen auch jeweils ein Mannschaftsvertreter, um eventuelle Probleme oder Verbesserungsvorschläge einzubringen. 
-													<br><br>Diese Gesichter kümmern sich um alles Organisatorische rund um den Sport, sei es die Einteilung der Hallendienste, das Planen verschiedener Feste, wie beispielsweise den Vatertagshock, das Hobbyturnier, Bezirksspielfest und viele mehr. Hierzu gehört vor allem das Einteilen der Helfer, das Festlegen der Preise, das Bestellen und Abholen wichtiger Dinge und natürlich das Helfen vor Ort. Diese Gesichter sind die ersten, die am Fest oder Heimspieltag anwesend sind und beim Aufbau helfen und auch die letzten, die gehen, wenn der Abbau sauber über die Bühne gebracht wurde. Auch über die Veranstaltung hinweg ist immer jemand da, der hilft, koordiniert, oder bei Bedarf auch einspringt. 
-													<br><br>Und diese Gesichter haben auch einen Namen:  Florian Mauch, Mark Sigel, Jochen Fenske, Benjamin Banzhaf, Beate Pesl, Conny Fischer, Anja Hennig, Lena Sigel, Alisa Schaal, Annette Breuninger, Ulla Diez, Maike Sigel und Markus Mayer
-													<br><br>All diese Namen bilden zusammen den Wirtschaftsausschuss – ein gutes Team, hilfsbereit, jederzeit ansprechbar und offen für neue Vorschläge. 
-
+												Auch in der Saison 2018/2019 kümmert sich der Wirtschaftsausschuss um die Organisation und Durchführung von sämtlichen Veranstaltungen der Handball Abteilung. 
+												<br>Während der Hallenrunde müssen natürlich die Hallendienste organisiert und koordiniert werden. Aber auch außerhalb der Hallenrunde gibt es für das Team des Wirtschaftsausschusses einiges zu tun. Zu den vielen Aufgaben gehört unter anderem die Planung und Durchführung von unserem Vatertagshock und dem Städtlesfest und vieles mehr. Auch die alljährliche Weihnachtsfeier und Playersnight wird vom Team des Wirtschaftsausschusses organisiert. 
+												<br>Im TSV-Jubiläumsjahr (125Jahre) gab es gleich mehrere Highlights zu organisieren. Seit langen war im Juni wieder ein Bezirksspielfest der männlichen E-Jugend in der Lindach Sporthalle.  Das Auftaktspiel des Esslinger Marktplatz Turnieres in Juli fand ebenfalls in der Lindach Sporthalle statt, zu Gast war der VfL Gummersbach und der TVB 1898 Stuttgart. Im August waren die TSG Haßloch, HBW Balingen-Weilstetten, die HSG Konstanz und FRISCH AUF! Göppingen zu Gast in Weilheim um die 1. Runde des DHB-Pokals auszutragen.
+												<br><br>Der Wirtschaftsausschuss ist zwischenzeitlich ein eingespieltes Team, das sich dennoch immer über neue Gesichter freut.
+												<br><br>Zum festen Team des Wirtschaftsausschusses gehören: Lena Sigel, Ulla Burkhardt, Beate Pesl, Jochen Fenske, Mark Sigel, Benjamin Banzhaf, Conny Fischer, Daniel Däschler, Alisa Schaal, Maike Sigel, Gunter Zettl, Anja Hennig, Stephanie Schwarz, Angelika Schmid, Andreas Bleher, Oliver Stelzer, Markus Mayer und Annette Breuninger				
 												';
 											}
 											else if($site=="fv"){
@@ -382,7 +431,20 @@
 								//$dom -> load("http://android.handball-weilheim.de/webhandball/hvwcutout.php?site=erste&type=table");
 								}
 								$data = $dom->getElementsByTagName('TabelleUngerade'); 
-								//$data1 = $dom->getElementsByTagName('TabelleUngerade');
+								$dataGerade = $dom->getElementsByTagName('TabelleGerade');
+								$resultingData = array();
+
+								foreach($data as $node)
+								{ 
+									array_push($resultingData, $node);
+								}
+								$counter = 1;
+								foreach($dataGerade as $node1)
+								{ 
+									array_splice($resultingData, $counter, 0, array($node1));
+									$counter = $counter + 2;
+								}
+								
 								//$data2 = $dom->getElementsByTagName('Verein');
 								echo '<div class="container" style="background-color:white; margin:auto; width:100%;"><h3 class="text-center">Aktueller Tabellenstand ' .$mannschaft.'</h3></div>';
 								echo( '<table class="table table-striped table123">');
@@ -403,7 +465,7 @@
 								$toreM=22;
 								$punkteP=22;
 								$punkteM=22;
-								foreach($data as $node)
+								foreach($resultingData as $node)
 								{ 
 									
 								if($n %2 == 0) { echo '<tr class="info " >'; }
