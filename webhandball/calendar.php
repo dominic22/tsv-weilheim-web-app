@@ -16,7 +16,7 @@ END:VEVENT
 END:VCALENDAR";*/
 
 // Set correct filename
-$year = "_18_19";
+$year = "_19_20";
 
 if($_REQUEST['site']) { $site = $_REQUEST['site']; };
 if($site=="erste"){ 
@@ -36,15 +36,15 @@ if($site=="erste"){
 if($site == "a_maennlich") { 
 	$fileName="spielplan_a_maennlich".$year.".ics";
 }
-if($site == "b_maennlich") { 
-	$fileName="spielplan_b_maennlich".$year.".ics";
-}
+//if($site == "b_maennlich") { 
+//	$fileName="spielplan_a_maennlich".$year.".ics";
+//}
 if($site == "c_maennlich") {
 	$fileName="spielplan_c_maennlich".$year.".ics";
 }
-if($site == "d_maennlich") { 
-	$fileName="spielplan_d_maennlich".$year.".ics";
-}
+//if($site == "d_maennlich") { 
+//	$fileName="spielplan_d_maennlich".$year.".ics";
+//}
 //if($teamName == "a_weiblich") { $teamID = "37441"; $counter="391150"; }
 if($site == "b_weiblich") { 
 	$fileName="spielplan_b_weiblich".$year.".ics";

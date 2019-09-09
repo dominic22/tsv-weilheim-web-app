@@ -27,7 +27,7 @@ require("config.inc.php");
 //ohne ID damit jungsenioren dabei?
 $year = 2017;
 
-$query = "SELECT `id`, title, introtext, `fulltext` FROM `hka983_content` WHERE created > '2018-08-01 00:00:00.000000' AND title LIKE '%".$site."%' ORDER BY id DESC ";// "Select * FROM comments";
+$query = "SELECT `id`, title, introtext, `fulltext` FROM `hka983_content` WHERE created > '2019-08-01 00:00:00.000000' AND title LIKE '%".$site."%' ORDER BY id DESC ";// "Select * FROM comments";
 
 //execute query
 try {
