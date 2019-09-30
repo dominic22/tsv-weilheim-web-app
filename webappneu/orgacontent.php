@@ -29,89 +29,125 @@
 	<div class="navbar navbar-inverse navbar-fixed-top" style="background-color: #eee;border-bottom:1px solid grey ; ">
      <a href="index.html"  > <img style="height:47px;float:left;margin-left:10px;margin-right:10px; margin-top:2px;" src="img/ic_launcher.png" /></a>
       <?php
-					$text= '<h3><b>Sportliche Leitung</b></h3>
-<h4>Roland Bendl (links)</h4>
-<h3><b>Wirtschaftsvorstand</b></h3>
-<h4>Florian Mauch (mitte)</h4>
-<h3><b>Öffentlichkeitsarbeit und Marketing</b></h3>
-<h4>Gunter Zettl (rechts)<span style="color: #333333; font-family: Tahoma, Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.3em;"> </span></h4>
-<p> </p>
-<h2><span style="line-height: 1.3em;">Saison 2014/15</span></h2>
-<p style="text-align: justify;">wie in den Jahren zuvor beginnt für die Weilheimer Handballer Mitte September der Spielbetrieb für die Saison 2014/15. Nach intensiver Saisonvorbereitung der einzelnen Teams, heißt es nun die vorgenommenen Ziele in die Tat umzusetzen.</p>
-<p style="text-align: justify;">Wie im Vorjahr wird die zweite Damenmannschaft vom Trainerteam Kaufmann/Kiriakidis betreut. Hatte die Mannschaft sich im letzten Jahr einen Platz im Mittelfeld vorgenommen, so möchte man in dieser Saison einen weiteren Schritt nach vorne machen und sich in der oberen Tabellenhälfte der Kreisliga A etablieren.</p>
-<p style="text-align: justify;">Das Bezirksligateam der ersten Damenmannschaft wird weiterhin von Martin Weiss trainiert. Der Mannschaft gelang es im letzten Jahr den Weggang von Topspielerin Kim Prengel durch größere mannschaftliche Geschlossenheit zu kompensieren. Leider war das Team aber in seinen Leistungen noch zu schwankend. Wenn es der Truppe gelingt mehr Stabilität zu zeigen, ist ein Platz im oberen Drittel der Tabelle auf jeden Fall realistisch.</p>
-<p style="text-align: justify;">Erstmalig wird in diesem Jahr vom Bezirk eine AD/AH Runde für die Damen ausgetragen. Die infrage kommenden Weilheimer Spielerinnen waren sogleich dafür zu haben. Es wurde daraufhin eine Mannschaft gemeldet. Wir wünschen Ihnen in der ersten Saison viel Erfolg.</p>
-<p style="text-align: justify;">Die zweite Herrenmannschaft verpasste im letzten Jahr leider den Saisonziel Klassenerhalt. Nach einem teilweise recht unglücklichen Saisonverlauf mit einigen knappen Niederlagen, findet man sich in dieser Saison in der Kreisliga B wieder. Hier sollte aber für die Mannschaft von Trainer Florian Mauch ein guter Tabellenplatz kein Problem sein.</p>
-<p style="text-align: justify;">Die erste Herrenmannschaft startet mit einem neuen Trainer in die Saison. Mit Alen Dimitrijevic tritt kein Unbekannter dieses Amt an, war er doch vor Jahren schon einmal Trainer unter der Limburg. Personell gab es keine großen Veränderungen. Den Abgang von Timmy Hiller und Alexander Müske konnte man mit dem Heimkehrer Patrick Auweter und Markus Mayer ausgleichen. Vom Leistungsvermögen der Mannschaft sollte die Vorjahresplatzierung jedenfalls erreichbar sein.</p>
-<p style="text-align: justify;">Wie die „Erste“, so haben auch unsere Jungsenioren einen neuen Coach. Mit Hansi Pietsch ist es jedoch eine bekannte Weilheimer Handballgröße. Mit neuen Trainingsinhalten wird er versuchen das Team zu möglichst vielen Erfolgserlebnissen zu führen.</p>
-<p style="text-align: justify;">Schon vor dem ersten Anpfiff möchte sich die Handballabteilung jedoch bei ihren Gönnern, Sponsoren und unermüdlichen Helfern für die Unterstützung bedanken. Ohne diese Hilfe wäre ein Spielbetrieb nicht aufrecht zu erhalten. „Last but not least“ schon jetzt ein großes Dankeschön an unser tolles Publikum für vergangene und zukünftige Unterstützung.</p>
-<p><strong><span style="line-height: 1.3em;">Vorstandschaft</span></strong><br /><strong>TSV Weilheim</strong><br /><strong>Abteilung Handball</strong></p> 
-';
-											
-		//	if($_REQUEST['site']) { 
 		if(isset($_GET['site'])){
-				//$site = $_REQUEST['site'];
-				$site = $_GET['site'];
-				
-			}else{
-				$site ="";
-			}			
-					if($site=="v"){
-						$bild= '<img src="img/organisation/vs.jpg" class="img-responsive" id="MannschBild" />';					
-						$name = "Vorstand";			
+			$site = $_GET['site'];
+		}else{
+			$site ="";
+		}			
+		if($site=="v"){
+			$bild= '<img src="img/organisation/vs.jpg" class="img-responsive" id="MannschBild" />';					
+			$name = "Vorstand";			
+			$text = 'Liebe Freunde des Handballsports,
+			<br>Sehr geehrte Sponsoren,
+			<br>Hallo Handballabteilung und Vereinsmitglieder,
+			
+			<br><br>die Saison 2019/2020 wirft ihre Schatten voraus. Im Aktiven wie auch im Jugendbereich standen oder stehen nachhaltige Veränderungen an. Besonders die Neuordnung der Spielklassen im HVW wirft bereits ihre Schatten voraus. Die Saisonvorbereitungen der einzelnen Teams sind fast abgeschlossen. Die Spielpläne stehen seit dem 22.07.2019 fest. Nun heißt es, wie auch im letzten Jahr, die gesteckten Ziele in die Tat umzusetzen. Sie sollten, besonders bei den Aktiven, erreicht werden.
+			
+			<br><br>Der Vorstand wünscht allzeit – Gut SPIEL!
+			
+			<br><br>Wie bereits veröffentlich hat sich der Vorstand auf der Jahreshauptversammlung im April 2019 neu aufgestellt. Durch das Ausscheiden von Gunter Zettl, dem der Vorstand an dieser Stelle nochmals für seine Arbeit in den letzten Jahren seinen besonderen Dank ausspricht, konnten die verbliebenen Vorstände Markus Mayer und Swen Dulkies das langjährige Abteilungsmitglied Harald Lehmann als neuen Vorstand gewinnen sowie, Benjamin Banzhaf als 1. Kassierer. Er wird bei seiner Arbeit durch Heiner Mack (2. Kassierer) tatkräftig unterstützt.
+			<br>Der Vorstand hat in den letzten Wochen viele Gespräche mit allen Ressortleitern, dem Förderverein, Sponsoren, Helfern und Unterstützern geführt und hofft durch diese Gespräche einen gewissen „Flow“ in die Abläufe der Abteilung zu bekommen. Das neue Quartett hat sich viel vorgenommen für die neue Saison2019/2020. Der Vorstand wünscht sich eine rege Unterstützung durch die Abteilung.
+			
+			<br><br>Als absolut gelungen muss man die Jubiläumsveranstaltungen zur 1250 Jahr Feier der Stadt Weilheim ansehen. Vorausgegangen war der traditionelle „Vatertaghock“ am 30. Mai, das alljährliche Städlesfest am 02. Juni 2019 bei besten Wetter. Am 07. Juli 2019 fand das ganze seinen Höhepunkt im großen, nostalgischen Umzug durch Weilheims Straßen. Die Handballabteilung war mit dem frisch renovierten „Zügle“ und 14 Abteilungsmitgliedern vertreten. Eine super Sache!
+			<br><br>Der Vorstand dankt an dieser Stelle allen Helferinnen und Helfern (Zeltauf- und Abbau), den „Zügle“ Schaffern und den Umzugsteilnehmern, den Leuten vom Städlesfest und den vielen im Hintergrund beteiligten Personen ganz außerordentlich für ihren Einsatz. Ohne Euch wäre das nicht möglich gewesen. Danke!
+			<br><br>Einen besonderen Dank gilt noch der Firma Fischer Erdbau GmbH, Sanitär Kaufmann und Malerbetrieb Marc Burkhardt für ihre großartige Unterstützung, Danke!
+			
+			<br><br>Ein weiteres Ereignis wirft ebenfalls seine Schatten voraus. Im Jahr 2022 wird die Handballabteilung ihr 75. Jubiläum begehen. Der Vorstand wird zu diesem Thema im Oktober 2019 noch einmal eine Versammlung einberufen um, eine Entscheidung über die weitere Vorgehensweise für die kommende Zeit festzulegen. Wenn ihr Ideen, Vorschläge oder Wünsche habt, meldet Euch bitte unter der folgenden E-Mailadresse: vorstand@handball-weilheim.de
+			<br><br><b>Aufruf!</b>
+			
+			<br><br>Eine große Baustelle ist das Thema Schiedsrichter in unserem Verein. Und nicht nur bei uns. Schade ist nur das es andere Vereine immer wieder schaffen zumindest zwei-drei Leute (Jugend und Aktive) zu einem Lehrgang zu schicken, nur wir nicht. Die Gründe hierfür sind sicherlich Umfangreich aber manchmal nicht nachvollziehbar. Wir wollen hier auch keine schlechte Laune verbreiten aber Fakt ist, ohne Spielleiter wird es auch in Zukunft nicht gehen. Die ersten die das Problem zu spüren bekommen werden sind die Aktiven in den unteren Spielklassen. Hier könnte es in der neuen Saison dazu kommen, dass diese Mannschaften sich zu ihren Spielen einen Spielleiter suchen müssen.
+			<br>Aber auch in den Leistungsklassen kann man sich nicht zurücklehnen. Hier werden auch vermehrt Spiele mit nur einem Spielleiter stattfinden. Und jeder der sich im Handball auskennt weiß, dass vier Augen einfach mehr sehen als zwei! Es wird wohl von Seiten des Bezirks noch einiges an Lösungsmöglichkeiten angeboten aber, das kratzt nur an der Oberfläche. Wir möchten nur in Erinnerung rufen dass Neulinge nur in den Jugendklassen starten. Niemand wird hier ins kalte Wasser geschmissen. Wo es geht, wird vom Vorstand unterstütz. Das Alter (ab 16 Jahren) spielt überhaupt keine Rolle. Wir möchten den Gedanken, die Jugend wird es schon richten, sofort aus allen Köpfen vertreiben. Nein, die Jugend allein wird es nicht richten, sondern auch die „Alten“ Hasen, Frauen wie Männer müssen ihren Teil beitragen.
+			
+			<br><br>Zur Info: Zurzeit haben wir drei aktive Schiedsrichter in der Abteilung: Rebecca Glaab (Frauen 1) Markus Mayer, Swen Dulkies (Vorstand). Wir müssten aber eigentlich acht Schiedsrichter stellen.
+			<br>Bei einer Mitgliederstärke von 400 Personen in der Handballabteilung ist das einfach zu wenig! Wir müssen zum Ende der Saison 2019/2020 also wieder mit einem Strafbescheid in dreistelliger Höhe rechnen. Geld, das für andere Dinge nicht mehr zu Verfügung steht, weil es jetzt schon in die Rücklagen fließt. Wir möchten an jeden appellieren das jetzt die Zeit ist.
+			
+			<br><br>Wie im jeden Jahr wollen wir selbstverständlich nicht versäumen, schon vor dem ersten Anpfiff, dass sich die gesamte Handballfamilie des TSV Weilheim/T. e.V bei ihren Gönnern, Sponsoren und unermüdlichen Helfern für die Unterstützung bedankt. Ohne diese Hilfe ist und bleibt auch in Zukunft ein Spielbetrieb nicht aufrecht zu erhalten. „Last but not least“ schon jetzt ein großes Dankeschön an unser großartiges Publikum für vergangene und zukünftige Unterstützung, auch in schwierigen Zeiten.
+			
+			<br><br><b>Spieltechnik: Rückblick+Ausblick Saison 2019/2020</b>
+			
+			<br><br>Damen 1:
+			Der Mannschaft gelang es in der abgelaufenen Saison leider nicht, ihr Potenzial abzurufen und die gesteckten Ziele zu erreichen. So war es nicht verwunderlich, dass die Mannschaft bis zum letzten Spieltag im Abstiegskampf steckte. Für die neue Saison können wir ein neues, altes Trainergesicht auf der Trainerbank begrüßen: Christoph Drüke. Er löst den langjährigen Trainer Andreas Klöhn als Trainer ab. Auch dem langjährigem Co-Trainer Christo Kiriakidis sei an dieser Stelle für sein großartiges Engagement gedankt. Wir dürfen auf die kommenden Ergebnisse der Mannschaft gespannt sein.
+			
+			<br><br>Damen II:
+			<br>Nach einer mehr als durchwachsenden Saison konnte im letzten Spiel der Saison 2018/2019 das ausgegebene Ziel, der Klassenerhalt, geschafft werden.
+			Für die kommende Saison hat sich der neue Trainer Manuel Bauer als Ziel gesetzt mit dem Abstieg nichts zu tun haben zu wollen. Wir drücken die Daumen!
+			
+			<br><br>Herren I
+			<br>Nach gutem Rundenbeginn schaffte es die Mannschaft nicht, die erwarteten Punktgewinne einzufahren. Die Ausfälle von Maxi Müller und Bernhard Illi konnte die Mannschaft nur schwerlich verkraften. Dadurch konnte das gesteckte Ziel, der Wiederaufstieg in BL, nicht erreicht werden obwohl er aus Sicht vieler Handballkenner möglich gewesen wäre.
+			Um dieses Unterfangen für die Saison 2019/2020 zu erreichen konnte sich die Mannschaft mit den neuen Spielern Sebastian Martin, Johannes Negwer und Oliver Latzel verstärken. Auch Bernhard Illi hat das Training wieder aufgenommen. Ziel soll es sein, wieder an die erfolgreichen Zeiten anzuknüpfen und einen schönen Handball in Weilheim zu spielen.
+			
+			<br><br>Herren 2:
+			<br>Die Mannschaft um das Trainergespann Schill/Klein stand vor der schweren Aufgabe aus
+			einem wilden Haufen eine schlagkräftige Mannschaft zu formen. Was auch in den meisten Spielen gelang. So konnte unter anderem ein unerwarteter Sieg beim haushohen Favoriten TSV Denkendorf II errungen werden. Auch in diesem Jahr gilt es die jungen Spieler heranzuführen und mit der Mannschaft den Klassenerhalt zu schaffen.
+			
+			<br><br>Mit sportlichen Grüßen
+			
+			<br>Der Vorstand
+			<br>Abt. Handball
+			';
+		}
+		else if($site=="jl"){
+			$bild= '<img src="img/organisation/jl.jpg" class="img-responsive" id="MannschBild" />';					
+			$name = "Jugendleitung";	
+			$text = '
+			Zur neuen Saison 2019/2020 nimmt der TSV Weilheim wieder mit einer eigenen Jugend den Spielbetrieb auf.
+			Über die Sommerzeit werden sich die Jugendmannschaften neu formieren und für die kommende Saison vorbereiten.
+			<br><br>
+			Interessierte sind jederzeit herzlich willkommen zu den Trainingszeiten in der Lindach-Sporthalle oder Wühle-Sporthalle vorbeizuschauen
+			oder sich unter handball-jugendleitung@tsv-weilheim.de zu melden.
+			<br><br>
+			<b>Jugendleiter/innen (von links)</b>
+			<br><br>Maike Sigel, Annette Breuninger		
+			';
 						
-					}else if($site=="jl"){
-						$bild= '<img src="img/organisation/jl.jpg" class="img-responsive" id="MannschBild" />';					
-						$name = "Jugendleitung";	
-							$text = '<div class="text-center" style="background-color:white;"><h3><b>Jugendleiter/in</b></h3>
-									Annette Breuninger (rechts)<br>
-									Friedrich Schumacher
-									<h3><b>stellv. Jugendleiterin</b></h3>
-									Maike Sigel</div>';
-									
-					}else if($site=="wa"){
-						$bild= '<img src="img/organisation/wa.jpg" class="img-responsive" id="MannschBild" />';					
-						$name = "Wirtschaftsausschuss";			
-							$text = '
-							All diese auf dem Bild zu sehenden Gesichter sind die Gesichter des Wirtschaftsausschusses der Handballabteilung des TSV Weilheim. Im Wirtschaftsausschuss befindet sich unter anderen auch jeweils ein Mannschaftsvertreter, um eventuelle Probleme oder Verbesserungsvorschläge einzubringen. 
-<br><br>Diese Gesichter kümmern sich um alles Organisatorische rund um den Sport, sei es die Einteilung der Hallendienste, das Planen verschiedener Feste, wie beispielsweise den Vatertagshock, das Hobbyturnier, Bezirksspielfest und viele mehr. Hierzu gehört vor allem das Einteilen der Helfer, das Festlegen der Preise, das Bestellen und Abholen wichtiger Dinge und natürlich das Helfen vor Ort. Diese Gesichter sind die ersten, die am Fest oder Heimspieltag anwesend sind und beim Aufbau helfen und auch die letzten, die gehen, wenn der Abbau sauber über die Bühne gebracht wurde. Auch über die Veranstaltung hinweg ist immer jemand da, der hilft, koordiniert, oder bei Bedarf auch einspringt. 
-<br><br>Und diese Gesichter haben auch einen Namen:  Florian Mauch, Mark Sigel, Jochen Fenske, Benjamin Banzhaf, Beate Pesl, Conny Fischer, Anja Hennig, Lena Sigel, Alisa Schaal, Annette Breuninger, Ulla Diez, Maike Sigel und Markus Mayer
-<br><br>All diese Namen bilden zusammen den Wirtschaftsausschuss – ein gutes Team, hilfsbereit, jederzeit ansprechbar und offen für neue Vorschläge. 
-
-							';
-					}else if($site=="fv"){
-						$bild= '<img src="img/organisation/fv.JPG" class="img-responsive" id="MannschBild"  />';					
-						$name = "Förderverein";			
-						$text= 'Mit dem Ziel der ideellen und finanziellen Förderung der Handballabteilung des TSV Weilheim e.V. übernahm der gemeinnützige Förderverein des Handballsports im Jahr 2001 eine nicht ganz einfache Aufgabe.
-<br><br>Nach einem zähen Start können wir heute einige Projekte als sehr gelungen bezeichnen, insbesondere im Jugendbereich und in der Außendarstellung unserer Handballabteilung sind einige Veränderungen durch die Unterstützung des Fördervereins entstanden.
-<br><br>Unsere Aufgaben in der Förderung sehen wir in folgenden Bereichen:
-<ul >
-<li>
-<div style="background-color:white;">Jugendtraineraus- und –weiterbildung</div>
-</li>
-<li>
-<div style="background-color:white;">Unterstützung beim Spielzubehör (Handbälle, Trikots, Trainingsanzüge, Verbandsmaterial)</div>
-</li>
-<li>
-<div style="background-color:white;">Zuschüsse zu Turnierbesuchen</div>
-</li>
-<li>
-<div style="background-color:white;">Bereitstellung von Preisen bei Turnieren</div>
-</li>
-</ul>
-</p>
-<p style="margin:20px;">Als Hauptaufgabe in den kommenden Jahren sehen wir weiterhin unser Engagement in einer verbesserten Jugendarbeit sowie in der Koordination des „Sponsorings“.
-<br<br>Mit unserem Verein möchten wir Sie als Eltern, Ehemalige, Aktive, Freunde, Handel und Gewerbe ansprechen.
-<br><br>Werden auch Sie Mitglied im Förderverein des Handballsports des TSV Weilheim, Abt. Handball e.V. und helfen Sie mit, unsere Jugend in eine noch angenehmere Vereinsatmosphäre zu integrieren und die Handballfamilie in Weilheim zu erhalten. Der Mitgliedsbeitrag beträgt derzeit mindests 5,00 Euro pro Jahr und Person.
-<br><br><a href="http://handball-weilheim.de/images/downloads/Mitglieds_Beitrittserkl_2012.pdf" target="_blank">Download der Beitrittserklärung</a>
-<br><br>Auch über eine Spende auf das Konto des Fördervereins Konto Nr. 866 2220, BLZ 611 500 20 bei der KSK Esslingen freut sich der Förderverein und die Handballgemeinschaft des TSV Weilheim! 
-<br><br>Wir hoffen aus Sie sind von unserer Sache überzeugt, und geben uns die Chance mit Ihrer Mitgliedschaft unsere Handballabteilung zu unterstützen. Sollten noch Fragen offen sein, stehen Ihnen die Vorstandsmitglieder des Fördervereins gerne zur Verfügung!
-</p>';
-							
-					}else{					
-						$bild= '<img src="img/organisation/vs.jpg" class="img-responsive" id="MannschBild" />';					
-						$name = "Vorstand";	
-					}
+		} else if($site=="wa"){
+			$bild= '<img src="img/organisation/wa.jpg" class="img-responsive" id="MannschBild" />';					
+			$name = "Wirtschaftsausschuss";			
+			$text = '
+			Auch in der Saison 2019/2020 kümmert sich der Wirtschaftsausschuss um die Organisation und Durchführung von sämtlichen Veranstaltungen der Handball Abteilung. 
+			<br>Während der Hallenrunde müssen natürlich die Hallendienste organisiert und koordiniert werden. Aber auch außerhalb der Hallenrunde gibt es für das Team des Wirtschaftsausschusses einiges zu tun. Zu den vielen Aufgaben gehört unter anderem die Planung und Durchführung von unserem Vatertagshock und dem Städtlesfest und vieles mehr. Auch die alljährliche Weihnachtsfeier und Playersnight wird vom Team des Wirtschaftsausschusses organisiert. 
+			<br>Im TSV-Jubiläumsjahr (125Jahre) gab es gleich mehrere Highlights zu organisieren. Seit langen war im Juni wieder ein Bezirksspielfest der männlichen E-Jugend in der Lindach Sporthalle.  Das Auftaktspiel des Esslinger Marktplatz Turnieres in Juli fand ebenfalls in der Lindach Sporthalle statt, zu Gast war der VfL Gummersbach und der TVB 1898 Stuttgart. Im August waren die TSG Haßloch, HBW Balingen-Weilstetten, die HSG Konstanz und FRISCH AUF! Göppingen zu Gast in Weilheim um die 1. Runde des DHB-Pokals auszutragen.
+			<br><br>Der Wirtschaftsausschuss ist zwischenzeitlich ein eingespieltes Team, das sich dennoch immer über neue Gesichter freut.
+			<br><br>Zum festen Team des Wirtschaftsausschusses gehören: Lena Sigel, Ulla Burkhardt, Beate Pesl, Jochen Fenske, Mark Sigel, Benjamin Banzhaf, Conny Fischer, Daniel Däschler, Alisa Schaal, Maike Sigel, Gunter Zettl, Anja Hennig, Stephanie Schwarz, Angelika Schmid, Andreas Bleher, Oliver Stelzer, Markus Mayer und Annette Breuninger				
+			';
+		} else if($site=="fv"){
+			$bild= '';					
+			$name = "Förderverein";			
+			$text= 'Der Förderverein des Handballsports des TSV Weilheim an der Teck e.V. hat sich die
+			<br><br>
+			<b>ideelle und finanzielle Förderung der Abteilung Handball</b>
+			<br><br>auf die Fahnen geschrieben.
+			<br><br>
+			Hierbei sehen wir uns als Ansprechpartner für Eltern, Ehemalige, Aktive, Freunde, Handel und Gewerbe – auch für Sie / Dich!
+			<br><br>
+			Unser Verein wurde im Jahr 2001 gegründet und konnte seither bereits in vielen Bereichen den Handballsport in Weilheim an der Teck unterstützen, u.a.
+			<br><br>
+			- Jugendtraineraus- und -Weiterbildung
+			<br>- Unterstützung beim Spielzubehör (Handbälle, Trikots, Trainingsanzüge, …)
+			<br>- Zuschüsse zu: Freizeitaktivitäten der Jugendmannschaften undTurnierbesuchen
+			<br><br>
+			Nach den neuen Berthi-Shirts/Trikots im letzten Jahr konnten wir zur aktuellen Saison gemeinsam mit zwei Sponsoren die komplette Jugend mit neuen, einheitlichen Hoodies bzw. Jacken und Trainingshosen ausrüsten.
+			Weiterhin unterstützt der Förderverein mit seinen Mitgliedern die Handball-Abteilung bei besonderen Veranstaltungen (z.B. Handball Herbst-Camp, Eventspielen, …) und dient als Bindeglied zu ehemaligen Spielerinnen und Spielern. Seit der vergangenen Saison haben wir es gemeinsam mit den Eltern der Jugendspieler geschafft, entsprechende Thekendienst zu übernehmen, um die Jugendtrainer von dieser Aufgabe zu befreien – Herzlichen Dank hierfür!
+			<br><br>
+			Der aktuelle, jährliche Mitgliedsbeitrag beträgt lediglich € 5,00 – selbstverständlich sind auch darüberhinausgehende Beiträge und sonstige Spenden immer willkommen!
+			Konto des Fördervereins bei der Kreissparkasse Esslingen-Nürtingen (BLZ: 611 500 20):
+			<br><br>
+			Kontonummer: 866 222 0
+			<br>IBAN: DE17 6115 0020 0008 6622 20
+			<br>BIC: ESSLDE66XX
+			<br><br>
+			Für weitere Fragen/Informationen stehen wir gerne zur Verfügung
+			<br><br>
+			Oliver Stelzer / Simone Albert
+			<br><br>
+			oder
+			<br><br>
+			<a>handball-foerderverein@tsv-weilheim.de</a>
+			';			
+		}else{					
+			$bild= '<img src="img/organisation/vs.jpg" class="img-responsive" id="MannschBild" />';					
+			$name = "Vorstand";	
+		}
 					
 	  
 		echo '  <div class="content-heading" style="background-color:#eee;margin-top:20px;"><h3 >TSV Weilheim - '. $name .'</h3></div>
