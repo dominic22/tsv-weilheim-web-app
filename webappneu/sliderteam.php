@@ -163,7 +163,7 @@
 												Wir bedanken uns für die zahlreiche Unterstützung in der vergangenen Saison und freuen uns auf eine erfolgreiche und verletzungsfreie Saison 2019/2020. Natürlich zählen wir auch in diesem Jahr wieder auf die lautstarke Unterstützung der Weilheimer Fans!
 												';
 											}else if($site=="damen2"){
-												echo '<img src="img/teams/d2.jpeg" class="img-responsive" id="MannschBild"  />';										
+												echo '<img src="img/teams/d2.jpg" class="img-responsive" id="MannschBild"  />';										
 												$title='
 												<b>Hinten:</b> Noémi Papp, Jenny Schade, Elisa Fischer, Eva Pflüger, Carla Fischer, Lilien Morgenstern, Cindy Doll.
 												<br>
