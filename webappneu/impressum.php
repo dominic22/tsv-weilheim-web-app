@@ -58,27 +58,23 @@
 	</div>
 -->
 	<div class="col-xs-0 col-sd-2 col-md-2" style="overflow-y: scroll; overflow-x: hidden; 	visibility: hidden;"></div>
-									<div class="col-xs-12 col-sd-8 col-md-8" style="background-color:white;overflow-y: scroll; overflow-x: hidden; ">
-									
-										<p style="margin:20px;">
-										
-										<h1 class="text-center" style="color:red;">TSV Weilheim Abteilung Handball</h1>
-											<p>Eine Abteilung des<br />TSV Weilheim an der Teck e. V.<br />Egelsbergstraße 1<br />73235 Weilheim an der Teck</p>
-											<p>Geschäftsstelle<br />Tel 07023 - 908713<br />Fax 07023 - 908714</p>
-											<p> </p>
-											<h3>Copyright</h3>
-											<p>Vervielfältigungen jeder Art sind nur mit ausdrücklicher Genehmigung der Verantwortlichen gestattet. Die Aufnahme in Online-Dienste und Internet sowie die Vervielfältigung auf Datenträger dürfen nur nach vorheriger schriftlicher Zustimmung des Vereins erfolgen.</p>
-											<h3>Haftung</h3>
-											<p>Die Beiträge und Inhalte auf <span style="text-decoration: underline;"><span style="text-decoration: underline;"><span style="color: #0000ff;"><a href="/../">http://www.handball-weilheim.de/</a></span></span></span> werden mit Sorgfalt recherchiert. Dennoch wird eine Haftung ausgeschlossen.<a></a><a></a></p>
-											<h3>Wichtiger Hinweis zu allen Links</h3>
-											<p>Der TSV Weilheim, insbesondere die Abteilung Handball, ist nicht für die Inhalte fremder Seiten verantwortlich, die über einen Link erreicht werden. Diese Erklärung gilt für alle auf dieser Homepage angebrachten Links.</p> 
-												
-										
-										</p>
-										
-										
-										</div>
-										</div>
+		<div class="col-xs-12 col-sd-8 col-md-8" style="background-color:white;overflow-y: scroll; overflow-x: hidden; ">
+		
+			<p style="margin:20px;">
+			
+			<h1 class="text-center" style="color:red;">TSV Weilheim Abteilung Handball</h1>
+				<p>Eine Abteilung des<br />TSV Weilheim an der Teck e. V.<br />Egelsbergstraße 1<br />73235 Weilheim an der Teck</p>
+				<p>Geschäftsstelle<br />Tel 07023 - 908713<br />Fax 07023 - 908714</p>
+				<p> </p>
+				<h3>Copyright</h3>
+				<p>Vervielfältigungen jeder Art sind nur mit ausdrücklicher Genehmigung der Verantwortlichen gestattet. Die Aufnahme in Online-Dienste und Internet sowie die Vervielfältigung auf Datenträger dürfen nur nach vorheriger schriftlicher Zustimmung des Vereins erfolgen.</p>
+				<h3>Haftung</h3>
+				<p>Die Beiträge und Inhalte auf <span style="text-decoration: underline;"><span style="text-decoration: underline;"><span style="color: #0000ff;"><a href="/../">http://www.handball-weilheim.de/</a></span></span></span> werden mit Sorgfalt recherchiert. Dennoch wird eine Haftung ausgeschlossen.<a></a><a></a></p>
+				<h3>Wichtiger Hinweis zu allen Links</h3>
+				<p>Der TSV Weilheim, insbesondere die Abteilung Handball, ist nicht für die Inhalte fremder Seiten verantwortlich, die über einen Link erreicht werden. Diese Erklärung gilt für alle auf dieser Homepage angebrachten Links.</p> 
+			</p>
+		</div>
+	</div>
 										
 										
 										

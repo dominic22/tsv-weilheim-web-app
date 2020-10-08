@@ -155,17 +155,6 @@
 	
 		 $fulltext = str_replace("<a", "<p", $fulltext);
 	}
-			
-			
-			
-			
-			//ENDE FULLTEXT
-			
-			
-			
-			
-			
-			
 			if($x%2==0){
 			echo '<tr  class="active" onclick="goDoSomething(this)" data-id="'.$id .'" data-toggle="modal" data-target="#myModal">';
 			echo '<td  name="id" data-id="' .$id .'"><ul class="list-unstyled">';
@@ -189,9 +178,7 @@
 			$x++;
 		}
 		
-			
-			
-			echo "</table>";
+		echo "</table>";
 ?>
 
 	</div>

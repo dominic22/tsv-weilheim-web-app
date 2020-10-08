@@ -16,39 +16,48 @@ END:VEVENT
 END:VCALENDAR";*/
 
 // Set correct filename
-$year = "_19_20";
+$year = "_20_21";
 
 if($_REQUEST['site']) { $site = $_REQUEST['site']; };
 if($site=="erste"){ 
 	$fileName="spielplan_erste".$year.".ics";
-}else if($site=="zweite"){ 
+}
+if($site=="zweite"){ 
 	$fileName="spielplan_zweite".$year.".ics";
-}else if($site=="damen"){ 
+}
+if($site=="damen"){ 
 	$fileName="spielplan_damen".$year.".ics";
-}else if($site=="damen2"){ 
+}
+/*
+if($site=="damen2"){ 
 	$fileName="spielplan_damen2".$year.".ics";
-}else if($site=="js"){ 
+}
+if($site=="js"){ 
 	$fileName="spielplan_js".$year.".ics";
-}else if($site=="ad"){ 
+}
+if($site=="ad"){ 
 	$fileName="spielplan_ad".$year.".ics";
 }
+*/
 //jugend
-if($site == "a_maennlich") { 
-	$fileName="spielplan_a_maennlich".$year.".ics";
-}
-//if($site == "b_maennlich") { 
+//if($site == "a_maennlich") { 
 //	$fileName="spielplan_a_maennlich".$year.".ics";
 //}
-if($site == "c_maennlich") {
-	$fileName="spielplan_c_maennlich".$year.".ics";
+if($site == "b_maennlich") { 
+	$fileName="spielplan_b_maennlich".$year.".ics";
 }
-//if($site == "d_maennlich") { 
-//	$fileName="spielplan_d_maennlich".$year.".ics";
+//if($site == "c_maennlich") {
+//	$fileName="spielplan_c_maennlich".$year.".ics";
 //}
-//if($teamName == "a_weiblich") { $teamID = "37441"; $counter="391150"; }
-if($site == "b_weiblich") { 
-	$fileName="spielplan_b_weiblich".$year.".ics";
+if($site == "d_maennlich") { 
+	$fileName="spielplan_d_maennlich".$year.".ics";
 }
+if($site == "a_weiblich") { 
+	$fileName="spielplan_a_weiblich".$year.".ics";
+}
+//if($site == "b_weiblich") { 
+//	$fileName="spielplan_b_weiblich".$year.".ics";
+//}
 if($site == "c_weiblich") { 
 	$fileName="spielplan_c_weiblich".$year.".ics";
 }

@@ -27,8 +27,6 @@ if ($rows) {
     $response["success"] = 1;
     $response["message"] = "Post Available!";
     $response["posts"]   = array();
-    
-
 
  foreach ($rows as $row) {
         $post = array();
@@ -36,24 +34,15 @@ if ($rows) {
         //this line is new:
 		$post["id"]    = $row["id"];
         $post["title"]  = $row["title"];
-
         $post["introtext"] = $row["introtext"];
-        
         $post["fulltext"]  = $row["fulltext"];
-        
-		
         
         //update our repsonse JSON data
         array_push($response["posts"], $post);
     }
-
-
-
     
     // echoing JSON response
     echo json_encode($response);
-    
-    
 } else {
     $response["success"] = 0;
     $response["message"] = "No Post Available!";

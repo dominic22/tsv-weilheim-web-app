@@ -25,9 +25,8 @@ require("config.inc.php");
 
 //$query = "SELECT `id`, title, introtext, `fulltext` FROM `jos16_content` WHERE id > 50 AND created > '2013-09-01 00:00:00.000000' AND title LIKE '%".$site."%' ORDER BY id DESC ";// "Select * FROM comments";
 //ohne ID damit jungsenioren dabei?
-$year = 2017;
 
-$query = "SELECT `id`, title, introtext, `fulltext` FROM `hka983_content` WHERE created > '2019-08-01 00:00:00.000000' AND title LIKE '%".$site."%' ORDER BY id DESC ";// "Select * FROM comments";
+$query = "SELECT `id`, title, introtext, `fulltext` FROM `hka983_content` WHERE created > '2020-08-01 00:00:00.000000' AND title LIKE '%".$site."%' ORDER BY id DESC ";
 
 //execute query
 try {
