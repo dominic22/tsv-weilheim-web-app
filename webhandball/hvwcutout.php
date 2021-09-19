@@ -7,22 +7,22 @@
 	//$site = "http://www.hvw-online.org/spielbetrieb/ergebnissetabellen-verband/#/league?ogId=3&lId=";
   
 	// aktiv
-	if($teamName == "erste") { $leaguID = "59481"; $teamID="664961"; };
-	if($teamName == "zweite") { $leaguID = "59491"; $teamID="665856"; };
-	if($teamName == "damen") { $leaguID = "59511"; $teamID="665016"; };
+	if($teamName == "erste") { $leaguID = "69873"; $teamID="736341"; };
+	if($teamName == "zweite") { $leaguID = "69881"; $teamID="736413"; };
+	if($teamName == "damen") { $leaguID = "69897"; $teamID="736613"; };
 	//if($teamName == "damen2") { $leaguID = ""; $teamID=""; };
 	//if($teamName == "js") { $leaguID = "31754"; $teamID="391150"; };
 	//if($teamName == "ad") { $leaguID = "31750"; $teamID="391150"; };
 
 	//jugend
 	//if($teamName == "a_maennlich") { $leaguID = "49921"; $teamID="565331"; };
-	if($teamName == "b_maennlich") { $leaguID = "61816"; $teamID="670476"; };
+	if($teamName == "b_maennlich") { $leaguID = "71485"; $teamID="753285"; };
 	//if($teamName == "c_maennlich") { $leaguID = "49951"; $teamID="565636"; };
 	if($teamName == "d_maennlich") { $leaguID = "61866"; $teamID="671021"; };
 	if($teamName == "a_weiblich") { $leaguID = "61871"; $teamID="671056"; };
 	//if($teamName == "b_weiblich") { $leaguID = "50001"; $teamID="565976"; };
-	if($teamName == "c_weiblich") { $leaguID = "61916"; $teamID="671751"; };
-	if($teamName == "d_weiblich") { $leaguID = "61936"; $teamID="671916"; };
+	if($teamName == "c_weiblich") { $leaguID = "71801"; $teamID="755049"; };
+	if($teamName == "d_weiblich") { $leaguID = "71813"; $teamID="755109"; };
 
 	if($type == "table") { 
 	

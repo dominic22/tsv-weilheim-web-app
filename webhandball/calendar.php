@@ -16,7 +16,7 @@ END:VEVENT
 END:VCALENDAR";*/
 
 // Set correct filename
-$year = "_20_21";
+$year = "_21_22";
 
 if($_REQUEST['site']) { $site = $_REQUEST['site']; };
 if($site=="erste"){ 
@@ -49,12 +49,12 @@ if($site == "b_maennlich") {
 //if($site == "c_maennlich") {
 //	$fileName="spielplan_c_maennlich".$year.".ics";
 //}
-if($site == "d_maennlich") { 
-	$fileName="spielplan_d_maennlich".$year.".ics";
-}
-if($site == "a_weiblich") { 
-	$fileName="spielplan_a_weiblich".$year.".ics";
-}
+//if($site == "d_maennlich") { 
+//	$fileName="spielplan_d_maennlich".$year.".ics";
+//}
+//if($site == "a_weiblich") { 
+//	$fileName="spielplan_a_weiblich".$year.".ics";
+//}
 //if($site == "b_weiblich") { 
 //	$fileName="spielplan_b_weiblich".$year.".ics";
 //}
